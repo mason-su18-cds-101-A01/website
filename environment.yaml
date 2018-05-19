@@ -1,0 +1,20 @@
+---
+name: cds101website
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - anaconda=custom=py36hbbc8b67_0
+  - pandoc=2.2.1=0
+  - pelican
+  - markdown
+  - typogrify
+  - rpy2
+  - r-base
+  - r-commonmark
+  - r-devtools
+  - r-essentials
+  - r-git2r
+  - r-lintr
+  - r-nycflights13
+  - r-tidyverse
