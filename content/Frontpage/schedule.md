@@ -17,7 +17,7 @@ Week 1              1       May-21        Beginnings: Course overview and setup
                     
                     4       May-24        [Introduction to data and visualization I]                                              [Reading 2]
                     
-                    5       May-25        Introduction to data and visualization II                                               [Can Twitter predict election results]
+                    5       May-25        [Introduction to data and visualization II]                                             [Can Twitter predict election results]
                                                                                                                                   <br> [Reading 3]
 
 Week 2                      May-28        **Memorial Day** (No class)                                                             [Visualization mini-assignment] <br>
@@ -27,12 +27,13 @@ Week 2                      May-28        **Memorial Day** (No class)           
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-[Reading 1]:                                /assignments/reading-1/
-[Reading 2]:                                /assignments/reading-2/
-[Reading 3]:                                /assignments/reading-3/
-[Reading 4]:                                /assignments/reading-4/
-[Reading 5]:                                /assignments/reading-5/
-[The data scientist's toolbox I]:           /materials/class-2/
-[Introduction to data and visualization I]: /materials/class-4/
-[Can Twitter predict election results]:     /assignments/can-twitter-predict-election-results-mini-assignment/
-[Visualization mini-assignment]:            /assignments/visualization-mini-assignment/
+[Reading 1]:                                 /assignments/reading-1/
+[Reading 2]:                                 /assignments/reading-2/
+[Reading 3]:                                 /assignments/reading-3/
+[Reading 4]:                                 /assignments/reading-4/
+[Reading 5]:                                 /assignments/reading-5/
+[The data scientist's toolbox I]:            /materials/class-2/
+[Introduction to data and visualization I]:  /materials/class-4/
+[Introduction to data and visualization II]: /materials/class-5/
+[Can Twitter predict election results]:      /assignments/can-twitter-predict-election-results-mini-assignment/
+[Visualization mini-assignment]:             /assignments/visualization-mini-assignment/
