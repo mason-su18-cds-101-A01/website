@@ -6,27 +6,42 @@ Modified: 2018-05-25 10:00
 Index_save_as: index.html
 Url: /index.html
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Week                Class   Date          Topic                                                                                   Due Dates
-------------------- ------- ------------- --------------------------------------------------------------------------------------- --------------------------------------
-Week 1              1       May-21        Beginnings: Course overview and setup
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Week             Class      Date          Topic                                               Materials                     Due Dates
+---------------- ---------- ------------- --------------------------------------------------- ----------------------------- ------------------------------------------------
+Week 1           1          May-21        Beginnings: Course overview and setup
 
-                    2       May-22        [The data scientist's toolbox I]
+                 2          May-22        [The data scientist's toolbox I]                    [<i
+                                                                                              class="fas fa-file-pdf"
+                                                                                              data-fa-transform="grow-8">
+                                                                                              </i>][c2-sl]
 
-                    3       May-23        The data scientist's toolbox II                                                         [Reading 1]
-                    
-                    4       May-24        [Introduction to data and visualization I]                                              [Reading 2]
-                    
-                    5       May-25        [Introduction to data and visualization II]                                             [Can Twitter predict election results]
-                                                                                                                                  <br> [Reading 3]
+                 3          May-23        The data scientist's toolbox II                     [<i                           [Reading 1]
+                                                                                              class="fab fa-github-alt" 
+                                                                                              data-fa-transform="grow-8">
+                                                                                              </i>][c3-gh]
+                 
+                 4          May-24        [Introduction to data and visualization I]          [<i                           [Reading 2]
+                                                                                              class="fas fa-file-pdf"
+                                                                                              data-fa-transform="grow-8">
+                                                                                              </i>][c4-sl]
+                 
+                 5          May-25        [Introduction to data and visualization II]         [<i                           [Can Twitter predict election results]
+                                                                                              class="fas fa-file-pdf"       <br> [Reading 3]
+                                                                                              data-fa-transform="grow-8">
+                                                                                              </i>][c5-sl]
 
-Week 2                      May-28        **Memorial Day** (No class)                                                             [Visualization mini-assignment] <br>
-                                                                                                                                  [Reading 4]
+Week 2                      May-28        **Memorial Day** (No class)                                                       [Visualization mini-assignment] <br>
+                                                                                                                            [Reading 4]
 
-                    6       May-29        Data Wrangling I                                                                        [Reading 5]
+                 6          May-29        Data Wrangling I                                                                  [Reading 5]
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+[c2-sl]:                                     /doc/class02_slides.pdf
+[c3-gh]:                                     https://classroom.github.com/a/IQ7xlc4W
+[c4-sl]:                                     /doc/class04_slides.pdf
+[c5-sl]:                                     /doc/class05_slides.pdf
 [Reading 1]:                                 /assignments/reading-1/
 [Reading 2]:                                 /assignments/reading-2/
 [Reading 3]:                                 /assignments/reading-3/
