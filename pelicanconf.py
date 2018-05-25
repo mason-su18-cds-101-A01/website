@@ -78,7 +78,7 @@ SUMMARY_MAX_LENGTH = 50
 MENUITEMS = [
     # (False, "Syllabus", "syllabus.html"),
     (False, "Materials", "materials.html"),
-    # (False, "Assignments", "assignments.html"),
+    (False, "Assignments", "assignments.html"),
     (False, "Datasets", "datasets.html"),
 ]
 

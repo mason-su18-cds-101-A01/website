@@ -1,10 +1,10 @@
 Title: Can Twitter predict election results?
 Author: Dr. Glasbrenner
 Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
-Date: 2018-05-21 10:30
-Tags: activity
-Slug: can-twitter-predict-election-results-activity
-Summary: An introductory activity about a data science study that used Twitter data to predict election outcomes.
+Date: 2018-05-25 23:59
+Tags: mini-assignment
+Slug: can-twitter-predict-election-results-mini-assignment
+Summary: A mini-assignment about a data science study that used Twitter data to predict election outcomes.
 Show_summary: true
 Show_link: true
 
@@ -13,10 +13,10 @@ icon_pdf <- '<i class="fas fa-file-pdf" data-fa-transform="grow-16"></i>&nbsp;'
 icon_github <- '<i class="fab fa-github-alt" data-fa-transform="grow-16"></i>&nbsp;'
 ```
 
+[**Due:** May 25, 2018 @ 11:59pm]{.h3}
+
 ::: {.no-bullets}
-
-*   [`r icon_github` &nbsp; [**Twitter activity** repo]{.card-downloads-format}][github-classroom-repo]
-
+*   [`r icon_github` &nbsp; [**Twitter mini-assignment** repo]{.card-downloads-format}][github-classroom]
 :::
 
 ## Appearances of candidates' names on Twitter can help predict election results
@@ -62,11 +62,12 @@ Be sure to consider Figure 1 and Table 1 carefully, and address the following qu
 
 1.  Write a sentence summarizing the findings of the paper.
 
-2.  Discuss Figure 1 with the people near you. What is its purpose? What does it convey?
-    Think critically about this data visualization.
-    What would you do differently?
+2.  Think critically about the data visualization shown in Figure 1 and write what you observe about it.
+    What is the figure's purpose?
+    What does it convey?
+    If you were to create it, what would you do differently?
 
-3.  Discuss with in your team the differences between the Bivariate model and the Full Model.
+3.  Now discuss the differences between the Bivariate model and the Full Model.
     Which one do you think does a better job of predicting the outcome of an election?
     Which one do you think best addresses the influence of tweets on an election?
 
@@ -90,12 +91,12 @@ Discuss the following in your neighbors.
 
 ## Credits
 
-This classroom activity is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+This mini-assignment is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 Adapted by James Glasbrenner for CDS-101 from [the following activity][duke-sta112-adapted] by [Mine Çetinkaya-Rundel](https://stat.duke.edu/~mc301).
 Credit for the dataset example belongs to [Ben Baumer](http://www.math.smith.edu/~bbaumer/).
 
 [538]:                   http://fivethirtyeight.com
 [digrazia-paper]:        /doc/DiGrazia2013_SSRN_MoreTweetsMoreVotes-id2235423.pdf
+[github-classroom]:      https://classroom.github.com/a/ZMdqdsxL
 [duke-sta112-adapted]:   https://github.com/mine-cetinkaya-rundel/sta112_f15/blob/8e70667fc8db04f3a65b1c01a57ff747a6c9ed0a/application-exercises/app_Twitter_election_results.Rmd
 [wapo-rojas-editorial]:  http://www.washingtonpost.com/opinions/how-twitter-can-predict-an-election/2013/08/11/35ef885a-0108-11e3-96a8-d3b921c0924a_story.html 
-[github-classroom-repo]: https://classroom.github.com/a/ZMdqdsxL
