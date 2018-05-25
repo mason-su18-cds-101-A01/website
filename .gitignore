@@ -8,6 +8,9 @@
 output/
 cache/
 
+# RStudio
+*.Rproj
+
 # --------------------------
 # BEGIN ignore basic files
 # --------------------------
