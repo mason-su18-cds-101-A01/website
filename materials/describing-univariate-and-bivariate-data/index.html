@@ -1,0 +1,165 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDS-101: Introduction to Computational and Data Sciences</title>
+    <link rel="stylesheet" href="http://summer18.cds101.com/theme/css/cds101.min.css">
+    <link rel="stylesheet" href="http://summer18.cds101.com/theme/css/vendor/katex/katex.min.css">
+    <link rel="stylesheet" href="http://summer18.cds101.com/theme/css/vendor/highlightjs/default.css">
+    <link rel="stylesheet" href="http://summer18.cds101.com/theme/css/vendor/fontawesome/fa-svg-with-js.css">
+    <link href="http://summer18.cds101.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CDS-101: Introduction to Computational and Data Sciences Full Atom Feed" />
+  </head>
+
+  <body>
+    <div class="header-grid-container">
+      <div class="banner-container">
+        <header>
+          <div class="banner">
+            <div class="course-logo">
+              <a href="http://summer18.cds101.com/">
+                <img src="http://summer18.cds101.com/theme/img/course-logo.svg">
+              </a>
+            </div>
+            <div class="university-logo">
+              <a href="https://gmu.edu">
+                <img src="http://summer18.cds101.com/theme/img/university-logo.svg">
+              </a>
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+    <div class="navbar-container">
+      <nav class="navbar">
+        <div class="navbar-mobile" data-responsive-toggle="main-menu" data-hide-for="large">
+          <button type="button" data-toggle="main-menu">
+            <i class="fas fa-bars"></i><span class="navbar-mobile-title">Menu</span></button>
+        </div>
+
+        <div class="navbar-menu" id="main-menu">
+          <ul class="navbar-menu-list">
+            <li>
+              <a class="navbar-home-item" href="http://summer18.cds101.com/">
+                <i class="fas fa-home" data-fa-transform="grow-8"></i>
+              </a>
+            </li>
+            <li>
+              <a class="navbar-menu-item" href="http://summer18.cds101.com/syllabus.html">Syllabus</a>
+            </li>
+            <li>
+              <a class="navbar-menu-item" href="http://summer18.cds101.com/materials.html">Materials</a>
+            </li>
+            <li>
+              <a class="navbar-menu-item" href="http://summer18.cds101.com/assignments.html">Assignments</a>
+            </li>
+            <li>
+              <a class="navbar-menu-item" href="http://summer18.cds101.com/datasets.html">Datasets</a>
+            </li>
+            <li class="navbar-social">
+              <ul class="navbar-social-list">
+                <li>
+                  <a class="navbar-social-item" href="https://github.com/mason-su18-cds-101-A01/website">
+                    <i class="fab fa-github" data-fa-transform="grow-8"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="navbar-social-item" href="http://masoncds101.slack.com">
+                    <i class="fab fa-slack" data-fa-transform="grow-8"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="navbar-social-item" href="feeds/all.atom.xml">
+                    <i class="fas fa-rss-square" data-fa-transform="grow-8"></i>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="content-grid-container">
+      <article class="static-page">
+        <header class="static-page-header">
+          <h1 class="static-page-title">Describing univariate and bivariate&nbsp;data</h1>
+        </header>
+        <div class="static-page-body">
+          <div class="no-bullets">
+            <ul>
+              <li>
+                <a href="/doc/describing_univariate_and_bivariate_data.pdf">
+                  <i class="fas fa-file-pdf" data-fa-transform="grow-8"></i>  Download this&nbsp;guide</a>
+              </li>
+            </ul>
+          </div>
+          <p>Many of the figures that we will be creating and analyzing during the course will be representations of univariate (meaning one variable) and bivariate (meaning two variables) data. You will frequently be asked to write a description about a
+            visualization, and you should aim to be precise and consistent in your terms. Use the short summaries below as a guide and a reminder when writing about the features contained in a univariate or bivariate&nbsp;plot.</p>
+          <h2 id="describing-univariate-data">Describing univariate&nbsp;data</h2>
+          <p>When describing the visual properties of univariate data, remember to discuss the following&nbsp;traits:</p>
+          <ul>
+            <li>
+              <p>shape:</p>
+              <ul>
+                <li>
+                  <p>right-skewed, left-skewed, symmetric (skew is to the side of the longer&nbsp;tail)</p>
+                </li>
+                <li>
+                  <p>unimodal, bimodal, multimodal,&nbsp;uniform</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p>center: mean (<code>mean</code>), median (<code>median</code>), mode (not always&nbsp;useful)</p>
+            </li>
+            <li>
+              <p>spread: range (<code>range</code>), standard deviation (<code>sd</code>), inter-quartile range (<code>IQR</code>)</p>
+            </li>
+            <li>
+              <p>unusual&nbsp;observations</p>
+            </li>
+          </ul>
+          <p>For additional guidance, follow this link for a summary of what the above terms mean:
+            <a href="http://stattrek.com/statistics/charts/data-patterns.aspx" class="uri">http://stattrek.com/statistics/charts/data-patterns.aspx</a>
+          </p>
+          <h2 id="describing-bivariate-data">Describing bivariate&nbsp;data</h2>
+          <p>When describing the visual properties of univariate data, you will frequently be looking at a scatterplot. When describing the shapes of scatterplots we&nbsp;highlight:</p>
+          <ul>
+            <li>
+              <p><strong>Direction</strong>: What direction is the data trending? Positive direction or negative&nbsp;direction?</p>
+            </li>
+            <li>
+              <p><strong>Form</strong>: This is analogous to <em>shape</em> for univariate data. Is the dataset linear? Is is curved? Does it not have a&nbsp;form?</p>
+            </li>
+            <li>
+              <p><strong>Strength</strong>: How clustered are the data points around the underlying form? Stated another way, what are the strength of the correlations? Typical descriptors are <em>strong</em>, <em>moderate</em>, or <em>weak</em>.</p>
+            </li>
+          </ul>
+
+        </div>
+      </article>
+    </div>
+    <footer class="page-footer">
+      <div class="footer-grid-container">
+        Except where otherwise noted, site materials are created by
+        <a href="https://cos.gmu.edu/cds/faculty-profile-james-glasbrenner/">
+          James K. Glasbrenner
+        </a>
+        and licensed under a
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+          Creative Commons Attribution-ShareAlike 4.0 International License
+        </a>.
+      </div>
+    </footer>
+    <script src="http://summer18.cds101.com/theme/js/cds101.min.js"></script>
+    <script src="http://summer18.cds101.com/theme/js/vendor/highlightjs/highlight.min.js"></script>
+    <script src="http://summer18.cds101.com/theme/js/vendor/katex/katex.min.js"></script>
+    <script src="http://summer18.cds101.com/theme/js/vendor/katex/contrib/auto-render.min.js"></script>
+    <script src="http://summer18.cds101.com/theme/js/vendor/wookmark/wookmark.min.js"></script>
+    <script src="http://summer18.cds101.com/theme/js/vendor/fontawesome/fontawesome-all.min.js"></script>
+    <script src="http://summer18.cds101.com/theme/js/vendor/vendorInit.js"></script>
+  </body>
+
+</html>
