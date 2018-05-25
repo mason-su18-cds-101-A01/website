@@ -2,13 +2,14 @@ Title: CDS-001-A01 Syllabus
 Author: Dr. Glasbrenner
 Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
 Date: 2018-05-21 10:30
-Modified: 2018-05-21 10:30
+Modified: 2018-05-25 14:40
 Course_Title: Introduction to Computational and Data Sciences
 Course_Number: CDS-001-A01
 Semester: Summer 2018
 
 ```{r setup, include = FALSE}
-su18_assignments <- '<code><i class="fas fa-lock"></i>sp18-homework</code>'
+su18_a01_homework <- '<i class="fas fa-lock"></i> <span class="monospace">su18-a01-homework</span>'
+su18_a01_readings <- '<i class="fas fa-lock"></i> <span class="monospace">su18-a01-readings</span>'
 ```
 
 ## Description {#course-description data-magellan-target="course-description"}
@@ -16,13 +17,13 @@ su18_assignments <- '<code><i class="fas fa-lock"></i>sp18-homework</code>'
 During this course, students will develop basic skills for obtaining, cleaning, transforming, and visualizing real-world datasets using the R programming language and the RStudio integrated development environment.
 Statistical methods for analyzing, interpreting, and predicting dataset trends are then introduced and approached from a computational point of view using randomization and simulation.
 Additional topics may be covered, such as an introduction to advanced or special topics like cross-validation.
-Throughout the course emphasis is placed on documenting one's scientific work using RStudio in conjunction with Github to fulfill the principles of reproducible research.
-Connections are highlighted between statistical inference and the scientific method and how this is related to both the scientific method's power and its limitations.
+Throughout the course emphasis is placed on documenting one’s scientific work using RStudio in conjunction with Github to fulfill the principles of reproducible research.
+Connections are highlighted between statistical inference and the scientific method and how this is related to both the scientific method’s power and its limitations.
 These tools will also be used to critically examine statistical claims reported in mass media, demonstrating how scientific literacy and a basic knowledge in statistics are indispensable tools to making sense of our modern world.
 
-*   **Classroom:** 1004 Exploratory Hall
+*   **Classroom:** 249 Research Hall
 *   **Meeting times:** Mon/Tues/Wed/Thurs/Fri 10:30am -- 12:15pm
-*   **University holidays:** Spring break, Mar. 12 -- Mar. 16 (no class)
+*   **University holidays:** Memorial Day, May 28 (no class)
 *   **Credit hours:** 3.0 credit hours
 *   **Prerequisites:** None, but a background in algebra is assumed.
 *   **Mason Core:** Natural science (+lab when taken with CDS-102)
@@ -35,8 +36,8 @@ Dr. James K. Glasbrenner
 
 *   **Office**: 253 Research Hall
 *   **Phone:** (703) 993-4512
-*   **Email:** [[jglasbr2@gmu.edu]{.monospace}](mailto:jglasbr2@gmu.edu)
-*   **Office hours:** Tues. 3:00pm -- 4:00pm and Fri. 11:00am -- 12:00pm, or by appointment.
+*   **Email:** [[jglasbr2\@gmu.edu]{.monospace}](mailto:jglasbr2@gmu.edu)
+*   **Office hours:** After class or by appointment
 
 ## Objectives {#course-objectives data-magellan-target="course-objectives"}
 
@@ -54,7 +55,6 @@ By the end of the course, students will be able to:
 This course utilizes two free textbooks that are made available under Creative Commons licenses:
 
 ::: {.textbook}
-
 *   R for Data Science: Import, Tidy, Transform, Visualize, and Model Data
     *   Hadley Wickham
     *   Garrett Grolemund
@@ -67,11 +67,9 @@ This is the free, [open-source][r4ds-github] data science textbook that we will 
 This textbook is available under a [Creative Commons Attribution-NonCommercial-NoDerivs 3.0 United States License][r4ds-cc-license].
 
 If you would like a physical copy of the textbook, you can [order it from Amazon][r4ds-amazon].
-
 :::
 
 ::: {.textbook}
-
 *   Introductory Statistics with Randomization and Simulation
     *   David M Diez
     *   Christopher D Barr
@@ -85,36 +83,41 @@ This is the free, [open-source][isrs-github] statistics textbook that we will us
 This textbook is available under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license (CC BY-NC-SA)][isrs-cc-license].
 
 If you would like a physical copy of the textbook, you can [order it from Amazon][isrs-amazon].
-
 :::
 
 ### Software
 
-During the course, we will use the following free and open-source software to manipulate data, perform computations, and write documents:
+During the course we will use RStudio Server available at https://rstudio.cos.gmu.edu, which provides a complete computing environment that is accessible using any computer with a modern web browser (Firefox and Chrome).
+Students are welcome to install RStudio on their own computers and will need to install the following applications in order to match what is available on RStudio Server:
 
-*   Programming language: R ([https://www.r-project.org](https://www.r-project.org))
-*   Version control: Git ([https://git-scm.com](https://git-scm.com))
-*   PDF export: LaTeX ([https://www.latex-project.org](https://www.latex-project.org))
-*   Programming software: RStudio ([https://www.rstudio.com](https://www.rstudio.com))
+*   Programming language: R --- https://www.r-project.org
+    *   Windows: https://cran.cnr.berkeley.edu/bin/windows/base/old/3.4.4/
+    *   Mac: https://cran.cnr.berkeley.edu/bin/macosx/el-capitan/base/R-3.4.4.pkg
+*   Version control: Git --- https://git-scm.com
+    *   Windows: https://git-scm.com/download/win
+    *   Mac: https://git-scm.com/download/mac
+*   PDF export: LaTeX --- https://www.latex-project.org
+    *   Windows: https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64/basic-miktex-2.9.6643-x64.exe
+    *   Mac: http://tug.org/cgi-bin/mactex-download/MacTeX.pkg
+*   Programming software: RStudio --- https://www.rstudio.com
+    *   Windows: https://download1.rstudio.org/RStudio-1.1.453.exe
+    *   Mac: https://download1.rstudio.org/RStudio-1.1.453.dmg
 
-RStudio sits on top of R, Git, and LaTeX and provides a user-friendly interface to using these programs.
-You can think of R, Git, and LaTeX as plugins that activate RStudio's main features.
-In practice, RStudio is the software application that we will learn to use during the course.
-
-*Students are highly encouraged to use Anaconda ([https://anaconda.com](https://anaconda.com)) to install the latest version of R, RStudio, and its other dependencies.*
+Technical support will only be provided for RStudio Server.
 
 ### Platforms
 
 The course will be administered through the following online platforms:
 
-*   Course website ([http://spring18.cds101.com](http://spring18.cds101.com)) 
-*   Github ([https://github.com](https://github.com/))
-*   Slack ([https://masoncds101.slack.com](https://masoncds101.slack.com)) 
-*   Blackboard ([https://mymasonportal.gmu.edu](https://mymasonportal.gmu.edu/))
+*   Course website: http://summer18.cds101.com
+*   Github: https://github.com
+*   Slack: https://masoncds101.slack.com
+*   Blackboard: https://mymasonportal.gmu.edu
 
 The course website operates as the central repository for course materials, including an up-to-date schedule and posted slides and handouts.
-Slack is the primary communication medium, replacing email (see the [Contact policy](#contact-policy) below) and serving as a discussion board.
-Github is used for storing your classroom files, distributing and collecting homework assignments, handing out example code, and for project collaborations.Blackboard will be used for posting grades.
+Slack is the primary communication medium, replacing email (see the Contact policy below) and serving as a discussion board.
+Github is used for storing your classroom files, distributing and collecting homework assignments, handing out example code, and for project collaborations.
+Blackboard will be used for posting grades.
 
 ## Policies {#course-policies data-magellan-target="course-policies"}
 
@@ -122,59 +125,77 @@ Github is used for storing your classroom files, distributing and collecting hom
 
 *All* correspondence is to be done using the private, invite-only Slack workspace for the course.
 Direct messages on Slack are to be used for contacting me instead of emails.
-Your Slack username *must* be registered and associated with your Mason `@gmu.edu` email address at all times.
+Your Slack username must be registered and associated with your Mason \@gmu.edu email address at all times.
 
 My ground rules for direct messages are as follows:
 
-*   I check and respond to messages during normal university hours.
-*   Allow up to approximately 24 hours for a response during normal hours. 
-*   Just because I view a message does not mean I will respond right away.
-*   I generally don't respond to messages over weekends and school holidays.
-*   If your questions are involved enough, I will ask you to come to office hours or schedule a Skype chat.
-*   *On email:* During the first two weeks of the course, emails will be responded to, but I will send you my response on Slack.
-    After two weeks, emails will be ignored.[^email-policy-footnote]
+*   I check and respond to messages during normal university hours
+*   Allow up to approximately 24 hours for a response during normal hours
+*   Just because I view a message does not mean I will respond right away
+*   I generally don’t respond to messages over weekends and school holidays
+*   If your questions are involved enough, I will ask you to talk to me in person
+*   On email: Emails sent during the first week of classes will be responded to, but I will respond to you using Slack.
+    Emails sent to me after the first week will be ignored.[^email-policy-footnote]
 
-**[Please Note:]{.smallcaps}** the CDS-102 labs are a separate course from CDS-101.
-I do not answer questions for the lab.
-All correspondence regarding labs are to be directed to the teaching assistant.
+### Tech support: R, RStudio, Github, and your computer
+
+Post all technical issues or error messages for R, RStudio, Github, and your computer in the designated Slack channel [[#r-rstudio-github-help]{.monospace}][slack-r-rstudio-github-help].
+
+This is so that other students can either help out or see how to resolve what is likely a common problem.
+If it becomes clear that the error or issue is highly specific, then discussion can be moved to Direct Message or handled via a remote desktop sharing session.
+
+When posting about an issue, here are some basic questions to answer that will help with troubleshooting:
+
+1.  What did you expect to happen when you ran your code?
+2.  What is actually happening when you run your code?
+    a.  If there’s an error message, tell us what it is.
+        A screenshot works, provided you a) don’t crop the image as that can remove useful information by accident, and b) take a real screenshot, not a photograph of your screen using your phone.
+3.  Is there any other context we should know?
+    For example, if a file won’t load, did you check that you are in the correct project or that the file actually exists?
+    Did your issue appear only after you worked on a different assignment?
+    Did you recently install a package not used in class?
+
+### Illness and emergencies
+
+It is a student’s responsibility to inform me about illnesses or personal/family emergencies that will interfere with attendance or submitting work on time.
+This must be done as soon as possible. In case of illness, you may be asked to provide a doctor’s note before being granted an assignment extension or exemption.
+
+I understand that certain emotional or physical situations can impact a student’s willingness to communicate what is going on and that it can take a day or two to inform me about a personal emergency or severe illness.
+At the same time, all students are expected to exercise personal responsibility.
+It is not acceptable to wait to tell me about the impacts of a personal illness or emergency until you’re about to fail the course due to not attending class or missing homework submission deadlines.
 
 ### Attendance policy
 
 Students are expected to attend every class and are responsible for obtaining and understanding the material that they miss, including any examples that derive from resources not available online.
 Any missed work during an unexcused absence cannot be made up.
-Unexcused absences, frequent tardiness, or leaving class early will reduce your participation grade.
+Unexcused absences, frequent tardiness, or leaving class early will reduce your participation grade. 
 
-Absences due to religious holidays, scheduled varsity sports trips, and short-term illnesses should be brought to my attention as early as possible.
-Any make-up work is to be completed within 24 hours.
-Exemptions may be granted at my discretion.
+Students are responsible for informing me about upcoming absences due to religious holidays, scheduled varsity sports trips, or a school-sponsored activity.
+Any make-up work is to be completed within the time-frame I set forth.
+Exemptions may be granted at my discretion. 
 
 ### Late work policy
 
-Unless otherwise noted, the main homework assignments are to be submitted by 11:59pm on the due date.
+Unless otherwise noted, assignments are to be submitted by 11:59pm on the due date.
 The following penalties apply for most assignments (please note that weekends count as days):
 
-*   First day late, by 11:59pm: -10%
-*   Second day late, by 11:59pm: -20%
-*   Third day late, by 11:59pm: -30%
-*   Fourth day or later: no credit
+*   First day late, by 11:59pm: -15%
+*   Second day late, by 11:59pm: -30%
+*   Third day late or later: no credit
 
-The above does not pertain to the reading questions and answers, which must be submitted before the posted date and time to receive credit.
-The writeup for the midterm project and your final course portfolio are also exceptions and must be submitted by the due date; late submissions will not be accepted.
+The above does not pertain to your questions about assigned readings, which must be submitted before the stated date and time to receive credit.
+Reports and presentations for the midterm project and your final portfolio and interview are also exceptions and must be submitted or presented by the due date.
+Late submissions will not be accepted, and missed presentations cannot be made up.
 
-Presentations, such as for the midterm project or the final interview, must be given on the scheduled date and cannot be made up.
-
-Extensions or exemptions may be granted in the case of illness or a family emergency at my discretion, and it is the student's responsibility to inform me about these kinds of circumstances as soon as possible.
+Extensions or exemptions may be granted at my discretion.
 
 ### Regrading appeals policy
 
 Regrade appeals need to be in writing, printed out, and hand delivered to me within 48 hours of receiving back an assignment (not including weekends).
 Appeals via Slack or email will not be accepted, no exceptions.
 Appeals are only to be used for correct answers being marked as incorrect, misapplication of the grading rubric, or incorrectly tallied points.
-Submissions need to clearly state what you want regraded and to justify the request by citing evidence[^regrading-appeals-footnote].
+Submissions need to clearly state what you want regraded and to justify the request by citing evidence.[^regrading-appeals-footnote]
 The number of points a question, exercise, or rubric category is worth or that were deducted for an incorrect answer or mistake cannot be appealed and are not up for debate or negotiation.
-
-If I'm not available when delivering a request, please see Natalie Lapidot--Croitoru (231 Research Hall) or Karen Underwood (373 Research Hall).
-Ask them to initial the request, write down the date and time of receipt, and to hold it for my pickup.
 
 ### Extra credit and grading curves policy
 
@@ -194,8 +215,8 @@ All academic accommodations must be arranged through the ODS: [http://ods.gmu.ed
 | Category           | Weight |
 | :----------------- | :----- |
 | Participation      |    10% |
-| Reading responses  |    15% |
-| Homework           |    25% |
+| Reading responses  |    10% |
+| Homework           |    30% |
 | Midterm project    |    25% |
 | Final project      |    25% |
 
@@ -221,12 +242,10 @@ Based on the final total score, your final grade will be determined as follows:
 
 ### Participation
 
-Students are expected to come to class prepared.
-Most course topics will require some amount of programming, which is a skill that's best learned by doing.
-In-class activities and exercises will be provided to re-enforce these concepts, which at times may be completed in pairs or in groups.
+Students are expected to come to class prepared and ready to participate in class activities and exercises, which at times may be completed in pairs or in groups.
 Students are expected to give their full effort while completing an in-class exercise and to complete it within a reasonable timeframe.
 A combination of speed of completion and quality of work will be factored into your participation grade.
-A student's number of absences during the semester will also factor into his/her participation grade.
+A student’s number of absences during the semester will also factor into his/her participation grade.
 
 ### Readings
 
@@ -234,59 +253,66 @@ Reading assignments will be regularly scheduled during the semester.
 They will be posted on the course schedule with reminders sent via Slack.
 Students are to complete the reading assignments by the specified date and be able to discuss it in class.
 
-To help foster discussion of the reading assignments, students will be required to post one question per reading on Slack.
+To help foster discussion of the reading assignments, unless otherwise noted students will be required to post one question per reading on Slack.
 Posting more than one question per reading is encouraged.
-Students are also required to reply to at least 10 questions during the semester and provide an answer.
-These replies need to be spread out so that questions are answered throughout the course.
-As such, a bare minimum of 5 answers need to be posted between January 23rd and March 9th, and another minimum of 5 answers need to be posted between March 19th and May 4th.
+Students are encouraged to try thinking through and answering each others questions.
+I will also participate in the discussion threads as required to help clear up misconceptions or prompt additional dialogue.
 
-Some additional rules about the reading posts:
+Some rules for posting in the reading discussions:
 
-*   All questions and answers for the reading are to be posted in the `#4-discussion` channel.
-*   Your question and answer posts **must** be labeled to tell us which assignment they're for. 
-    *   For example, use `#reading2` if you're posting about the 2nd assigned reading.
-    *   Include `#question` for a question post and `#answer` for an answer post.
-*   When responding to a question, use "reply".
-*   Questions must be posted by the due date to be eligible for credit.
-*   Answers can be posted up to 48 hours after the "read-by" due date.
-*   Question and answer quality matters. 
-*   Avoid Q/A duplications
+*   All questions and discussions about each the reading are to be posted in the [`r su18_a01_readings`][slack-su18-a01-readings] channel.
+*   All questions must be labeled with a hashtag to make it easier to search for them. For example, use `#reading2` if you’re posting about the 2nd assigned reading.
+*   When responding to a question, hover over the message and click the reply option to submit your answer as a comment to the question
+*   Questions must be posted by the due date to be eligible for credit, even being one minute late results in zero credit
+*   **Do...**
+    *   check to see if your question has already been asked instead of posting without reading what your classmates have asked
+    *   ask questions that are on-topic and about the reading’s subject matter instead of asking about tangential commentary made by the author or extraneous details in an example
+    *   complete the reading assignments and post your questions well in advance of class instead of waiting until the last minute to post
+    *   read the entire selection before posting your question instead of opening to the first page and asking about something superficial 5 minutes before the due date and time
+    *   explain, as part of your question, which part of a concept or method you do not understand and why, instead of just saying you don’t understand it
+    *   look up words you do not understand instead of asking someone else to define it for you or making that your question
+    *   look up information instead of saying you don’t know or just guessing
+    *   always ask a question, even if it’s more advanced or about how something may be applied in practice instead of saying you have no questions
 
 ### Homework
 
 There will be 5 main homework assignments to complete during the semester.
 Smaller, shorter mini-assignments may also be distributed from time to time.
-Assignments will be submitted to Github as a new pull request.
+Assignments will be submitted to Github as a pull request against the branch labeled `starting`.
 
-Assignments submissions are documents consisting of interwoven segments of writing and code blocks.
+All homework submissions will be in the RMarkdown format and consist of interwoven segments of plain text writing and code blocks.
 It is expected that you will write in full sentences and use proper grammar and punctuation.
-You will be expected to explain what you are doing with each chunk of code and to interpret the meaning of what you calculate.
-The document's style and formatting will also be taken into account during grading and should follow the course's style guides for R and RMarkdown.
+You are also expected to explain what you are doing with each chunk of code and to interpret the meaning of what you calculate.
+You are expected to write RMarkdown documents that successfully knit to HTML and PDF in a clean RStudio environment.
 
-Students will be permitted to resubmit 1 of their assignments during the semester within a week of receiving their grade on the original assignment.
+The document's style and formatting will also be taken into account during grading and should not be considered an afterthought.
+Use your common sense when getting ready to submit an assignment.
+Your submission in PDF format should not contain figures with unreadable overlapping labels, code blocks that run off the edge of the page, or is 50--100 pages in length because you keep printing out long tables.
+Your submissions must use the Markdown syntax correctly and not engage in unorthodox practices such as writing all your sentences in a section header or placing code outside of code blocks.
+Unless specifically requested in the instructions, screenshots should never be included as part of your submission.
+
+Students will be permitted to resubmit 1 of their homework assignments during the semester within two days of receiving their grade on the original assignment.
 The resubmissions are eligible to receive full credit and replace the lower grade.
-The updated assignment is to be submitted as a new pull request with a title that begins with the word **Resubmission**.
+The corrected assignment is re-submitted by committing and pushing your updates to the same homework repository and then commenting in the original pull request you created for submission.
+The comment should begin with the word **Resubmission** and tag my Github username [[\@jkglasbrenner]{.monospace}][jkg-github-profile].
 
-Students may discuss homework assignments using the `r su18_assignments` Slack channel.
+Students may discuss homework assignments using the [`r su18_a01_homework`][slack-su18-a01-homework] Slack channel.
 Take care to ensure that the final submission is in your own words.
 See the academic integrity section for specifics.
 
 ### Midterm project
 
-Students will complete a midterm project in assigned groups during the first half of the semester.
-For this project, you will perform an exploratory data analysis on a dataset, focusing on "wrangling" the data so that you can produce meaningful visualizations and interpret basic trends.
-More detailed information about the project will be provided in the coming weeks.
+Students will complete a midterm project in assigned groups where you will perform an exploratory data analysis on a dataset, focusing on transforming the data and then aggregating it so that you can produce meaningful visualizations and interpret basic trends.
+Groups will also create a powerpoint slideshow and present their work to the rest of the class.
+More detailed information about the project to come.
 
 ### Final project
 
-In lieu of a traditional final exam, students will be building a portfolio containing both comprehensive notes on the major R functions used during the course and an overview of accomplishments demonstrating a student's learning and growth over the semester.
-Students will also be given a couple of simulations to run, and then compare and contrast.
-Templates for the format and content of the notes portion of the portfolio will be provided in the first few weeks and will be gradually built throughout the semester.
-Students will then submit their portfolio about one week before the scheduled final exam.
+In lieu of a traditional final exam, students will be building a portfolio containing comprehensive notes of the major R functions used during the course.
+Additional items will also be included in the final portfolio, including a comparative discussion of two famous simulations provided to you as web apps and suggestions for topics we could cover in a hypothetical CDS-103 follow-up course. Templates for the format and content of the notes portion of the portfolio will be provided early on and will be gradually built throughout the semester.
 
-During the scheduled final exam, I will conduct a brief 5-10 minute interview with each student based on their portfolio submission.
-The interview will also contain a short exercise to complete.
-More information on both the portfolio and the final interview will be provided in the coming weeks.
+During the scheduled final exam, I will conduct a brief 5–10 minute coding interview with each student where you will be asked to complete a few short exercises based on material covered during the course.
+More detailed information about the portfolio and the interview to come.
 
 ## Conduct {#course-conduct data-magellan-target="course-conduct"}
 
@@ -294,22 +320,23 @@ More information on both the portfolio and the final interview will be provided 
 
 > Student members of the George Mason University community pledge not to cheat, plagiarize, steal, or lie in matters related to academic work.[^mason-academic-integrity-reference]
 
-Students may discuss non-group work outside of class, however in all instances it is required that your submitted responses to assignments are written in your own words.
-Do not duplicate or paraphrase another person's material or ideas and represent them as your own.
+Students may discuss non-group work outside of class, however in all instances it is required that you write your assignments by yourself and in your own words, meaning that students are not permitted to collaborate on write-ups for individual assignments and projects.
+In the same vein, do not duplicate or paraphrase another person’s material or ideas and represent them as your own.
+"Individual assignment" is the default classification for all assignments, projects, and portfolios in the course; any exceptions to the rule will be noted in the instructions.
 Content that comes from a resource or another student should be properly cited.
 
 A note on sharing or reusing code found on other Github repos or on websites like *Wikipedia* or *Stack Overflow*.
-I am aware that there are solution sets, sample snippets of code, etc.
-that can be of use while working on your assignments, projects and exercises during the course.
-It's common knowledge that researchers in both industry and academia will use search engines while writing code.
-Being able to search for existing solutions so that you don't "reinvent the wheel" is a useful skill.
-Therefore, unless I specify otherwise, you are permitted to use these resources as long as you provide a citation.
+I am aware that there are solution sets, sample snippets of code, etc. that can be of use while working on your assignments, projects and exercises during the course.
+It’s common knowledge that researchers in both industry and academia will use search engines while writing code.
+Being able to search for existing solutions so that you don’t "reinvent the wheel" is a useful skill.
+Therefore, unless I specify otherwise, you are permitted to use these resources **as long as you provide a citation**.
 
 Exceptions to this rule are:
 
-*   For individual assignments, you cannot reuse another student's code
-*   For group assignments, you cannot reuse another group's code
-*   You are not permitted to use solution sets for the two main textbooks we're using during the course
+*   For individual assignments, you cannot reuse anything from another student’s work (past or present), including but not limited to RMarkdown documents, code, plain text explanations, etc.
+*   For the group assignments, you cannot use any material from another group, such as code and plain text explanations
+*   You are not permitted to consult or use solution sets for the two main textbooks or any of the assignments, activities, and projects for the course
+*   You are not permitted to ask other students from this or previous semesters for copies of their submitted assignments or projects, even to use for reference.
 
 **[Any material that is taken in whole or in part from another source and not properly cited will be treated as a violation of Mason's Academic Honor Code.]{.smallcaps}**
 
@@ -329,7 +356,8 @@ Examples of expected behavior include, but are not limited to:
 *   Refraining from using devices for anything other than coursework[^devices-definition-footnote]
 *   Removing ear-buds/headphones and sunglasses when class begins
 
-The expectations of civil and respectful behavior still apply for all online discussions Students are expected to follow proper grammar and punctuation in online posts and to refrain from using internet slang, abbreviations, and sarcasm.
+The expectations of civil and respectful behavior still apply for all online discussions.
+Students are expected to follow proper grammar and punctuation in online posts and to refrain from using internet slang, abbreviations, and sarcasm.
 
 I will address violations of classroom decorum on a case-by-case basis and reserve the right to enact grade-based penalties for highly disruptive or repeat violations.
 Penalties for decorum violations cannot be negotiated or appealed.
@@ -355,7 +383,6 @@ Contact them at (703) 993-2380 or [http://caps.gmu.edu/](http://caps.gmu.edu/).
 ## Disclaimer {#course-disclaimer data-magellan-target="course-disclaimer"}
 
 The instructor reserves the right to modify this syllabus at any time during the course to improve the learning experience and classroom environment.
-These changes will either be announced during class or via Slack.
 The digital version of the syllabus on the course website will be updated to reflect the changes.
 The pacing of the course and the list of covered topics may also be altered in response to student progress.
 
@@ -363,21 +390,20 @@ The course objectives reflect what a student is expected to understand by the en
 These outcomes are not a guarantee, and students will get more out of the course the more they put into it.
 Any acquired skills and knowledge can fade over time if not reviewed or practiced after the course concludes.
 
-<!-- Footnotes -->
-
 [^email-policy-footnote]: If there are special circumstances requiring that we communicate via email, it is your responsibility to inform me about it as soon as possible.
 [^regrading-appeals-footnote]: Acceptable evidence includes in-class notes (provide date of class), a reading passage (provide full citation), or another valid source (textbooks, official publications, etc).
 [^devices-definition-footnote]: The term "devices" is meant to be broad and includes classroom computers, laptops, cell phones, tablets and e-readers, smart watches, etc. Exceptions can be made in cases of family or personal emergencies, please speak to me before class.
 [^mason-academic-integrity-reference]: Office for Academic Integrity. *2017-2018 Honor Code and Honor System.* Web. 27 Aug. 2017.
 
-<!-- Implicit links -->
-
-[r4ds-github]:       https://github.com/hadley/r4ds
-[isrs-github]:       https://github.com/OpenIntroOrg/randomization-and-simulation
-[r4ds-amazon]:       http://amzn.to/2aHLAQ1
-[isrs-amazon]:       http://a.co/ixGTX7R
-[r4ds-cc-license]:   http://creativecommons.org/licenses/by-nc-nd/3.0/us/
-[isrs-cc-license]:   /doc/isrs_license.txt
-[r4ds-online-ebook]: http://r4ds.had.co.nz/
-[isrs-online-ebook]: /doc/Diez_Barr_%C3%87etinkaya-Rundel_IntroductoryStatisticsWithRandomizationAndSimulation.pdf
-
+[r4ds-github]:                 https://github.com/hadley/r4ds
+[isrs-github]:                 https://github.com/OpenIntroOrg/randomization-and-simulation
+[r4ds-amazon]:                 http://amzn.to/2aHLAQ1
+[isrs-amazon]:                 http://a.co/ixGTX7R
+[r4ds-cc-license]:             http://creativecommons.org/licenses/by-nc-nd/3.0/us/
+[isrs-cc-license]:             /doc/isrs_license.txt
+[r4ds-online-ebook]:           http://r4ds.had.co.nz/
+[isrs-online-ebook]:           /doc/Diez_Barr_%C3%87etinkaya-Rundel_IntroductoryStatisticsWithRandomizationAndSimulation.pdf
+[jkg-github-profile]:          https://github.com/jkglasbrenner
+[slack-su18-a01-homework]:     https://masoncds101.slack.com/messages/GASATLPJ4
+[slack-su18-a01-readings]:     https://masoncds101.slack.com/messages/GAU3C5MRD
+[slack-r-rstudio-github-help]: https://masoncds101.slack.com/messages/CASUNTFNX
