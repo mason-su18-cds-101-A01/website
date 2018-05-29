@@ -2,7 +2,7 @@ Title: Summer 2018 Schedule
 Author: Dr. Glasbrenner
 Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
 Date: 2018-05-21 10:30
-Modified: 2018-05-25 18:45
+Modified: 2018-05-29 10:15
 Index_save_as: index.html
 Url: /index.html
 
@@ -36,7 +36,8 @@ Week 2                      May-28        **Memorial Day** (No class)           
 
                  6          May-29        Data Wrangling I                                                                  [Reading 5]
 
-                 7          May-30        Data Wrangling II                                                                 [Homework 1]
+                 7          May-30        Data Wrangling II                                                                 [Homework 1] <br>
+                                                                                                                            [Reading 6]
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -49,6 +50,7 @@ Week 2                      May-28        **Memorial Day** (No class)           
 [Reading 3]:                                 /assignments/reading-3/
 [Reading 4]:                                 /assignments/reading-4/
 [Reading 5]:                                 /assignments/reading-5/
+[Reading 5]:                                 /assignments/reading-6/
 [Homework 1]:                                /assignments/homework-1/
 [The data scientist's toolbox I]:            /materials/class-2/
 [Introduction to data and visualization I]:  /materials/class-4/
