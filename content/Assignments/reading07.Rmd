@@ -1,0 +1,34 @@
+Title: Reading 7
+Author: Dr. Glasbrenner
+Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
+Date: 2018-05-31 09:00
+Tags: reading
+Slug: reading-7
+Show_summary: false
+Show_link: false
+
+```{r setup, include = FALSE}
+icon_link <- '<i class="fas fa-link"></i>&nbsp;'
+su18_a01_readings <- '<code><i class="fas fa-lock"></i>su18-a01-readings</code>'
+```
+
+Read the following writeups on the **probability mass function** and **cumulative distribution function**:
+
+*   [Representing distributions: Probability mass function][pmf-reading]
+
+*   [Representing distributions: Cumulative distribution function][cdf-reading]
+
+[Reading discussion]{.h3}
+
+::::: {.callout .primary}
+**Discussion hashtag** \
+`#reading7`
+:::::
+
+::::: {.callout .secondary}
+Remember to post your question about it to the `r su18_a01_readings` channel in [Slack][cds101-slack] by the due date.
+:::::
+
+[pmf-reading]:  /materials/representing-distributions-pmf/
+[cdf-reading]:  /materials/representing-distributions-cdf/
+[cds101-slack]: https://masoncds101.slack.com
