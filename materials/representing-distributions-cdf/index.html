@@ -136,18 +136,76 @@ percentile_rank &lt;- 100.0 * number_of_lower_scores / number_of_tests</code></p
 test_scores %&gt;%
   arrange(score) %&gt;%
   slice(percentile_rank_row_number)</code></pre>
+          <table class="table table-striped table-responsive" style="width: auto !important; margin-left: auto; margin-right: auto;">
+            <thead>
+              <tr>
+                <th style="text-align:right;">
+                  score
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="text-align:right;">
+                  77
+                </td>
+              </tr>
+            </tbody>
+          </table>
           <p>The result of this calculation is called a <strong>percentile</strong>. So this means that, in the distribution of exam scores, the 55th percentile corresponds to a score of&nbsp;77.</p>
           <p>In R, there is a function called <code>quantile()</code> that can do the above calculation automatically, although you need to take care with the inputs. Let’s first show what happens when we aren’t careful. We might think that we can calculate
             the 55th percentile by&nbsp;running:</p>
           <pre class="r"><code>test_scores %&gt;%
   pull(score) %&gt;%
   quantile(probs = combine(0.55))</code></pre>
+          <table class="table table-striped table-responsive" style="width: auto !important; margin-left: auto; margin-right: auto;">
+            <thead>
+              <tr>
+                <th style="text-align:left;">
+                </th>
+                <th style="text-align:right;">
+                  x
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="text-align:left;">
+                  55%
+                </td>
+                <td style="text-align:right;">
+                  79.2
+                </td>
+              </tr>
+            </tbody>
+          </table>
           <p>We get a score of 79.2, which isn’t in our dataset. This happens because <code>quantile()</code> interpolates between the scores by default. Sometimes you will want this behavior, other times you will not. When the dataset is this small, it
             doesn’t make as much sense to permit interpolation, as it can be based on rather aggressive assumptions about what intermediate scores might look like. To tell <code>quantile()</code> to compute scores in the same manner as we did above, add
             the input <code>type = 1</code>:</p>
           <pre class="r"><code>test_scores %&gt;%
   pull(score) %&gt;%
   quantile(probs = combine(0.55), type = 1)</code></pre>
+          <table class="table table-striped table-responsive" style="width: auto !important; margin-left: auto; margin-right: auto;">
+            <thead>
+              <tr>
+                <th style="text-align:left;">
+                </th>
+                <th style="text-align:right;">
+                  x
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="text-align:left;">
+                  55%
+                </td>
+                <td style="text-align:right;">
+                  77
+                </td>
+              </tr>
+            </tbody>
+          </table>
           <p>This, as expected, agrees with the manual&nbsp;calculation.</p>
           <p>It is worth emphasizing that the difference between “percentile” and “percentile rank” can be confusing, and people do not always use the terms precisely. To summarize, if we want to know the percentage of people obtained scores equal to or
             lower than ours, then we are computing a percentile rank. If we start with a percentile, then we are computing the score in the distribution that corresponds with&nbsp;it.</p>
@@ -158,6 +216,60 @@ test_scores %&gt;%
           <pre class="r"><code>test_scores_cdf &lt;- test_scores %&gt;%
   arrange(score) %&gt;%
   mutate(cdf = row_number() / n())</code></pre>
+          <table class="table table-striped table-responsive" style="width: auto !important; margin-left: auto; margin-right: auto;">
+            <thead>
+              <tr>
+                <th style="text-align:right;">
+                  score
+                </th>
+                <th style="text-align:right;">
+                  cdf
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="text-align:right;">
+                  55
+                </td>
+                <td style="text-align:right;">
+                  0.2
+                </td>
+              </tr>
+              <tr>
+                <td style="text-align:right;">
+                  66
+                </td>
+                <td style="text-align:right;">
+                  0.4
+                </td>
+              </tr>
+              <tr>
+                <td style="text-align:right;">
+                  77
+                </td>
+                <td style="text-align:right;">
+                  0.6
+                </td>
+              </tr>
+              <tr>
+                <td style="text-align:right;">
+                  88
+                </td>
+                <td style="text-align:right;">
+                  0.8
+                </td>
+              </tr>
+              <tr>
+                <td style="text-align:right;">
+                  99
+                </td>
+                <td style="text-align:right;">
+                  1.0
+                </td>
+              </tr>
+            </tbody>
+          </table>
           <p>The visualization of the <span class="caps">CDF</span> looks&nbsp;like:</p>
           <p>
             <img src="/img/Materials/representing_distributions_cdf-test-scores-cdf-plot-1.svg" title="plot of chunk test-scores-cdf-plot" alt="plot of chunk test-scores-cdf-plot" width="60%" style="display: block; margin: auto;" />
