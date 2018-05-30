@@ -168,18 +168,12 @@ nebraska_iowa %>%
 ```
 
 ```{r ia-ne-count-summary-table, echo = FALSE}
-if (knitr::is_html_output()) {
-  nebraska_iowa %>%
-    count(state) %>%
-    knitr::kable(format = "html") %>%
-    kableExtra::kable_styling(
-      bootstrap_options = combine("striped", "responsive"), full_width = FALSE
-    )
-} else if (knitr::is_latex_output()) {
-  nebraska_iowa %>%
-    count(state) %>%
-    knitr::kable(format = "latex", booktabs = TRUE)
-}
+nebraska_iowa %>%
+  count(state) %>%
+  knitr::kable(format = "html") %>%
+  kableExtra::kable_styling(
+    bootstrap_options = combine("striped", "responsive"), full_width = FALSE
+  )
 ```
 
 we find that the two states do not have the exact same number of counties, although they are close in this particular example.
@@ -232,21 +226,14 @@ county_complete %>%
 ```
 
 ```{r va-ne-count-summary-table, echo = FALSE}
-if (knitr::is_html_output()) {
-  county_complete %>%
-    filter(state == "New Jersey" | state == "Virginia") %>%
-    count(state) %>%
-    knitr::kable(format = "html") %>%
-    kableExtra::kable_styling(
-      bootstrap_options = combine("striped", "responsive"),
-      full_width = FALSE
-    )
-} else if (knitr::is_latex_output()) {
-  county_complete %>%
-    filter(state == "New Jersey" | state == "Virginia") %>%
-    count(state) %>%
-    knitr::kable(format = "latex", booktabs = TRUE)
-}
+county_complete %>%
+  filter(state == "New Jersey" | state == "Virginia") %>%
+  count(state) %>%
+  knitr::kable(format = "html") %>%
+  kableExtra::kable_styling(
+    bootstrap_options = combine("striped", "responsive"),
+    full_width = FALSE
+  )
 ```
 
 As a result, comparing their frequency histograms gives you this:

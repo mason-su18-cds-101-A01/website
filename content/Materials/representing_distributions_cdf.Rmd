@@ -139,22 +139,14 @@ test_scores %>%
 
 ```{r percentile-simple-calc-table, echo = FALSE}
 percentile_rank_row_number <- ceiling(55 * number_of_tests / 100)
-if (knitr::is_html_output()) {
-  test_scores %>%
-    arrange(score) %>%
-    slice(percentile_rank_row_number) %>%
-    knitr::kable(format = "html") %>%
-    kableExtra::kable_styling(
-      bootstrap_options = combine("striped", "responsive"),
-      full_width = FALSE
-    )
-} else if (knitr::is_latex_output()) {
-  test_scores %>%
-    arrange(score) %>%
-    slice(percentile_rank_row_number) %>%
-    knitr::kable(format = "latex", booktabs = TRUE)
-}
-
+test_scores %>%
+  arrange(score) %>%
+  slice(percentile_rank_row_number) %>%
+  knitr::kable(format = "html") %>%
+  kableExtra::kable_styling(
+    bootstrap_options = combine("striped", "responsive"),
+    full_width = FALSE
+  )
 ```
 
 The result of this calculation is called a **percentile**.
@@ -171,21 +163,14 @@ test_scores %>%
 ```
 
 ```{r quantile-naive-table, echo = FALSE}
-if (knitr::is_html_output()) {
-  test_scores %>%
-    pull(score) %>%
-    quantile(probs = combine(0.55)) %>%
-    knitr::kable(format = "html") %>%
-    kableExtra::kable_styling(
-      bootstrap_options = combine("striped", "responsive"),
-      full_width = FALSE
-    )
-} else if (knitr::is_latex_output()) {
-  test_scores %>%
-    pull(score) %>%
-    quantile(probs = combine(0.55)) %>%
-    knitr::kable(format = "latex", booktabs = TRUE)
-}
+test_scores %>%
+  pull(score) %>%
+  quantile(probs = combine(0.55)) %>%
+  knitr::kable(format = "html") %>%
+  kableExtra::kable_styling(
+    bootstrap_options = combine("striped", "responsive"),
+    full_width = FALSE
+  )
 ```
 
 We get a score of 79.2, which isn't in our dataset.
@@ -201,21 +186,14 @@ test_scores %>%
 ```
 
 ```{r quantile-fixed-table, echo = FALSE}
-if (knitr::is_html_output()) {
-  test_scores %>%
-    pull(score) %>%
-    quantile(probs = combine(0.55), type = 1) %>%
-    knitr::kable(format = "html") %>%
-    kableExtra::kable_styling(
-      bootstrap_options = combine("striped", "responsive"),
-      full_width = FALSE
-    )
-} else if (knitr::is_latex_output()) {
-  test_scores %>%
-    pull(score) %>%
-    quantile(probs = combine(0.55), type = 1) %>%
-    knitr::kable(format = "latex", booktabs = TRUE)
-}
+test_scores %>%
+  pull(score) %>%
+  quantile(probs = combine(0.55), type = 1) %>%
+  knitr::kable(format = "html") %>%
+  kableExtra::kable_styling(
+    bootstrap_options = combine("striped", "responsive"),
+    full_width = FALSE
+  )
 ```
 
 This, as expected, agrees with the manual calculation.
@@ -239,17 +217,12 @@ test_scores_cdf <- test_scores %>%
 ```
 
 ```{r test-scores-cdf-table, echo = FALSE}
-if (knitr::is_html_output()) {
-  test_scores_cdf %>%
-    knitr::kable(format = "html") %>%
-    kableExtra::kable_styling(
-      bootstrap_options = combine("striped", "responsive"),
-      full_width = FALSE
-    )
-} else if (knitr::is_latex_output()) {
-  test_scores_cdf %>%
-    knitr::kable(format = "latex", booktabs = TRUE)
-}
+test_scores_cdf %>%
+  knitr::kable(format = "html") %>%
+  kableExtra::kable_styling(
+    bootstrap_options = combine("striped", "responsive"),
+    full_width = FALSE
+  )
 ```
 
 The visualization of the CDF looks like:
