@@ -1,0 +1,21 @@
+Title: <span class="monospace">dplyr</span> demos II
+Author: Dr. Glasbrenner
+Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
+Date: 2018-05-30 10:30
+Tags: activity
+Slug: dplyr-demos-activity-ii
+Show_summary: false
+Show_link: false
+
+```{r setup, include = FALSE}
+icon_pdf <- '<i class="fas fa-file-pdf" data-fa-transform="grow-16"></i>&nbsp;'
+icon_github <- '<i class="fab fa-github-alt" data-fa-transform="grow-16"></i>&nbsp;'
+```
+
+Continuation of the interactive demonstration of the major features found in the [dplyr]{.monospace} package.
+
+::: {.no-bullets}
+*   [`r icon_github` &nbsp; [**dplyr demo** repo]{.card-downloads-format}][github-classroom-repo]
+:::
+
+[github-classroom-repo]: https://classroom.github.com/a/eF7HdfVO
