@@ -2,7 +2,7 @@ Title: Summer 2018 Schedule
 Author: Dr. Glasbrenner
 Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
 Date: 2018-05-21 10:30
-Modified: 2018-05-30 18:45
+Modified: 2018-05-31 00:45
 Index_save_as: index.html
 Url: /index.html
 
@@ -44,7 +44,14 @@ Week 2                      May-28        **Memorial Day** (No class)           
                                                                                               data-fa-transform="grow-8">
                                                                                               </i>][c7-gh]
 
-                 8          May-31        Statistical distributions                                                         [Reading 7]
+                 8          May-31        Statistical distributions                           [<i                           [Reading 7]
+                                                                                              class="fab fa-github-alt"
+                                                                                              data-fa-transform="grow-8">
+                                                                                              </i>][c8-gh]
+
+                 9          Jun-01        Data Wrangling III                                                                [Reading 8]
+
+Week 3           10         Jun-04                                                                                          [Reading 9]
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -54,6 +61,7 @@ Week 2                      May-28        **Memorial Day** (No class)           
 [c5-sl]:                                     /doc/class05_slides.pdf
 [c6-gh]:                                     https://classroom.github.com/a/eF7HdfVO
 [c7-gh]:                                     https://classroom.github.com/a/eF7HdfVO
+[c8-gh]:                                     https://classroom.github.com/a/eF7HdfVO
 [Reading 1]:                                 /assignments/reading-1/
 [Reading 2]:                                 /assignments/reading-2/
 [Reading 3]:                                 /assignments/reading-3/
@@ -61,6 +69,8 @@ Week 2                      May-28        **Memorial Day** (No class)           
 [Reading 5]:                                 /assignments/reading-5/
 [Reading 6]:                                 /assignments/reading-6/
 [Reading 7]:                                 /assignments/reading-7/
+[Reading 8]:                                 /assignments/reading-8/
+[Reading 9]:                                 /assignments/reading-9/
 [Homework 1]:                                /assignments/homework-1/
 [The data scientist's toolbox I]:            /materials/class-2/
 [Introduction to data and visualization I]:  /materials/class-4/
