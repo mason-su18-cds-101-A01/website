@@ -1,51 +1,40 @@
 <!doctype html>
 <html class="no-js" lang="en">
-
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CDS-101: Introduction to Computational and Data Sciences</title>
     <link rel="stylesheet" href="http://summer18.cds101.com/theme/css/cds101.min.css">
-    <link rel="stylesheet" href="http://summer18.cds101.com/theme/css/vendor/katex/katex.min.css">
-    <link rel="stylesheet" href="http://summer18.cds101.com/theme/css/vendor/highlightjs/default.css">
-    <link rel="stylesheet" href="http://summer18.cds101.com/theme/css/vendor/fontawesome/fa-svg-with-js.css">
-    <link href="http://summer18.cds101.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CDS-101: Introduction to Computational and Data Sciences Full Atom Feed" />
-  </head>
-
-  <body>
+      <link rel="stylesheet" href="http://summer18.cds101.com/theme/css/vendor/katex/katex.min.css">
+      <link rel="stylesheet" href="http://summer18.cds101.com/theme/css/vendor/highlightjs/default.css">
+      <link rel="stylesheet" href="http://summer18.cds101.com/theme/css/vendor/fontawesome/fa-svg-with-js.css">
+      <link href="http://summer18.cds101.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CDS-101: Introduction to Computational and Data Sciences Full Atom Feed" />
+</head>  <body>
     <div class="header-grid-container">
-      <div class="banner-container">
-        <header>
-          <div class="banner">
-            <div class="course-logo">
-              <a href="http://summer18.cds101.com/">
-                <img src="http://summer18.cds101.com/theme/img/course-logo.svg">
-              </a>
-            </div>
-            <div class="university-logo">
-              <a href="https://gmu.edu">
-                <img src="http://summer18.cds101.com/theme/img/university-logo.svg">
-              </a>
-            </div>
-          </div>
-        </header>
+<div class="banner-container">
+  <header>
+    <div class="banner">
+      <div class="course-logo">
+        <a href="http://summer18.cds101.com/"><img src="http://summer18.cds101.com/theme/img/course-logo.svg"></a>
+      </div>
+      <div class="university-logo">
+        <a href="https://gmu.edu"><img src="http://summer18.cds101.com/theme/img/university-logo.svg"></a>
       </div>
     </div>
-    <div class="navbar-container">
-      <nav class="navbar">
-        <div class="navbar-mobile" data-responsive-toggle="main-menu" data-hide-for="large">
-          <button type="button" data-toggle="main-menu">
-            <i class="fas fa-bars"></i><span class="navbar-mobile-title">Menu</span></button>
-        </div>
+  </header>
+</div>    </div>
+<div class="navbar-container">
+  <nav class="navbar">
+    <div class="navbar-mobile" data-responsive-toggle="main-menu" data-hide-for="large">
+      <button type="button" data-toggle="main-menu"><i class="fas fa-bars"></i><span class="navbar-mobile-title">Menu</span></button>
+    </div>
 
-        <div class="navbar-menu" id="main-menu">
-          <ul class="navbar-menu-list">
-            <li>
-              <a class="navbar-home-item" href="http://summer18.cds101.com/">
-                <i class="fas fa-home" data-fa-transform="grow-8"></i>
-              </a>
-            </li>
+    <div class="navbar-menu" id="main-menu">
+      <ul class="navbar-menu-list">
+        <li>
+          <a class="navbar-home-item" href="http://summer18.cds101.com/"><i class="fas fa-home" data-fa-transform="grow-8"></i></a>
+        </li>
             <li>
               <a class="navbar-menu-item" href="http://summer18.cds101.com/syllabus.html">Syllabus</a>
             </li>
@@ -58,282 +47,276 @@
             <li>
               <a class="navbar-menu-item" href="http://summer18.cds101.com/datasets.html">Datasets</a>
             </li>
-            <li class="navbar-social">
-              <ul class="navbar-social-list">
+          <li class="navbar-social">
+            <ul class="navbar-social-list">
                 <li>
-                  <a class="navbar-social-item" href="https://github.com/mason-su18-cds-101-A01/website">
-                    <i class="fab fa-github" data-fa-transform="grow-8"></i>
-                  </a>
+                  <a class="navbar-social-item" href="https://github.com/mason-su18-cds-101-A01/website"><i class="fab fa-github" data-fa-transform="grow-8"></i></a>
                 </li>
                 <li>
-                  <a class="navbar-social-item" href="http://masoncds101.slack.com">
-                    <i class="fab fa-slack" data-fa-transform="grow-8"></i>
-                  </a>
+                  <a class="navbar-social-item" href="http://masoncds101.slack.com"><i class="fab fa-slack" data-fa-transform="grow-8"></i></a>
                 </li>
                 <li>
-                  <a class="navbar-social-item" href="feeds/all.atom.xml">
-                    <i class="fas fa-rss-square" data-fa-transform="grow-8"></i>
-                  </a>
+                  <a class="navbar-social-item" href="feeds/all.atom.xml"><i class="fas fa-rss-square" data-fa-transform="grow-8"></i></a>
                 </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-    <div class="content-grid-container">
-      <div class="static-page">
-        <header class="static-page-header">
-          <h1 class="static-page-title">Materials</h1>
-        </header>
-        <section class="static-page-body">
-          <div class="wookmark-card-grid">
-            <ul>
-              <li class="card-item">
-                <div class="card-activity">
-                  <i class="fas fa-laptop" data-fa-transform="grow-8"></i>&emsp;<strong>Activity</strong></div>
-                <div class="card-section">
-                  <h2>Chicago vehicle towing data&nbsp;activity</h2>
-                  <p class="card-datetime">
-                    <time datetime="2018-05-31T10:30:00-04:00">May 31, 2018</time>
-                  </p>
-                </div>
-                <div class="card-section">
-                  <p>Additional practice with the <span class="monospace">dplyr</span> using vehicle towing data posted by the city of&nbsp;Chicago.</p>
-                  <div class="no-bullets">
-                    <ul>
-                      <li>
-                        <a href="https://classroom.github.com/a/eF7HdfVO">
-                          <i class="fab fa-github-alt" data-fa-transform="grow-16"></i>    <span class="card-downloads-format"><strong>dplyr demo</strong> repo</span></a> (reusing for Chicago towing dataset&nbsp;activity)</li>
-                      <li>
-                        <a href="https://data.cityofchicago.org/Transportation/Towed-Vehicles/ygr5-vcbg/">
-                          <i class="fas fa-link"></i>    <span class="card-downloads-format">Chicago towed vehicles&nbsp;dataset</span></a>
-                      </li>
-                    </ul>
-                  </div>
-
-                </div>
-              </li>
-
-              <li class="card-item">
-                <div class="card-activity">
-                  <i class="fas fa-laptop" data-fa-transform="grow-8"></i>&emsp;<strong>Activity</strong></div>
-                <div class="card-section">
-                  <h2><span class="monospace">dplyr</span> demos <span class="caps">II</span></h2>
-                  <p class="card-datetime">
-                    <time datetime="2018-05-30T10:30:00-04:00">May 30, 2018</time>
-                  </p>
-                </div>
-                <div class="card-section">
-                  <p>Continuation of the interactive demonstration of the major features found in the <span class="monospace">dplyr</span>&nbsp;package.</p>
-                  <div class="no-bullets">
-                    <ul>
-                      <li>
-                        <a href="https://classroom.github.com/a/eF7HdfVO">
-                          <i class="fab fa-github-alt" data-fa-transform="grow-16"></i>    <span class="card-downloads-format"><strong>dplyr demo</strong>&nbsp;repo</span></a>
-                      </li>
-                    </ul>
-                  </div>
-
-                </div>
-              </li>
-
-              <li class="card-item">
-                <div class="card-reading-nograyout">
-                  <i class="fas fa-book" data-fa-transform="grow-8"></i>&emsp;<strong>Reading</strong></div>
-                <div class="card-section">
-                  <h2>Cumulative distribution&nbsp;functions</h2>
-                  <p class="card-datetime">
-                    <time datetime="2018-05-30T10:30:00-04:00">May 30, 2018</time>
-                  </p>
-                </div>
-                <div class="card-section">
-                  <p>Reading about how to use R to compute, visualize, and apply percentiles of a&nbsp;dataset.</p>
-                </div>
-                <div class="card-section card-link">
-                  <p>
-                    <a href="materials/representing-distributions-cdf/">
-                      <i class="fas fa-link"></i> Link</a>
-                  </p>
-                </div>
-              </li>
-
-              <li class="card-item">
-                <div class="card-reading-nograyout">
-                  <i class="fas fa-book" data-fa-transform="grow-8"></i>&emsp;<strong>Reading</strong></div>
-                <div class="card-section">
-                  <h2>Probability mass&nbsp;functions</h2>
-                  <p class="card-datetime">
-                    <time datetime="2018-05-30T10:30:00-04:00">May 30, 2018</time>
-                  </p>
-                </div>
-                <div class="card-section">
-                  <p>Reading about how to connect probabilities with values in a&nbsp;dataset.</p>
-                </div>
-                <div class="card-section card-link">
-                  <p>
-                    <a href="materials/representing-distributions-pmf/">
-                      <i class="fas fa-link"></i> Link</a>
-                  </p>
-                </div>
-              </li>
-
-              <li class="card-item">
-                <div class="card-activity">
-                  <i class="fas fa-laptop" data-fa-transform="grow-8"></i>&emsp;<strong>Activity</strong></div>
-                <div class="card-section">
-                  <h2><span class="monospace">dplyr</span> demos&nbsp;I</h2>
-                  <p class="card-datetime">
-                    <time datetime="2018-05-29T10:30:00-04:00">May 29, 2018</time>
-                  </p>
-                </div>
-                <div class="card-section">
-                  <p>An interactive demonstration of the major features found in the <span class="monospace">dplyr</span>&nbsp;package.</p>
-                  <div class="no-bullets">
-                    <ul>
-                      <li>
-                        <a href="https://classroom.github.com/a/eF7HdfVO">
-                          <i class="fab fa-github-alt" data-fa-transform="grow-16"></i>    <span class="card-downloads-format"><strong>dplyr demo</strong>&nbsp;repo</span></a>
-                      </li>
-                    </ul>
-                  </div>
-
-                </div>
-              </li>
-
-              <li class="card-item">
-                <div class="card-guide">
-                  <i class="fas fa-map" data-fa-transform="grow-8"></i>&emsp;<strong>Guide</strong></div>
-                <div class="card-section">
-                  <h2>Describing univariate and bivariate&nbsp;data</h2>
-                </div>
-                <div class="card-section">
-                  <p>How to write about visualizations of univariate (one variable) and bivariate (two variables)&nbsp;data.</p>
-                </div>
-                <div class="card-section card-link">
-                  <p>
-                    <a href="materials/describing-univariate-and-bivariate-data/">
-                      <i class="fas fa-link"></i> Link</a>
-                  </p>
-                </div>
-              </li>
-
-              <li class="card-item">
-                <div class="card-class-notes">
-                  <i class="fas fa-file-alt" data-fa-transform="grow-8"></i>&emsp;<strong>Class Notes</strong></div>
-                <div class="card-section">
-                  <h2>Class 5: Introduction to data and visualization <span class="caps">II</span></h2>
-                  <p class="card-datetime">
-                    <time datetime="2018-05-25T10:30:00-04:00">May 25, 2018</time>
-                  </p>
-                </div>
-                <div class="card-section">
-                  <p><span class="h3">Slides</span></p>
-                  <div class="no-bullets">
-                    <ul>
-                      <li>
-                        <a href="/doc/class05_slides.pdf">
-                          <i class="fas fa-file-pdf" data-fa-transform="grow-16"></i>    <span class="card-downloads-format"><span class="caps">PDF</span></span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-
-                </div>
-              </li>
-
-              <li class="card-item">
-                <div class="card-class-notes">
-                  <i class="fas fa-file-alt" data-fa-transform="grow-8"></i>&emsp;<strong>Class Notes</strong></div>
-                <div class="card-section">
-                  <h2>Class 4: Introduction to data and visualization&nbsp;I</h2>
-                  <p class="card-datetime">
-                    <time datetime="2018-05-24T10:30:00-04:00">May 24, 2018</time>
-                  </p>
-                </div>
-                <div class="card-section">
-                  <p><span class="h3">Slides</span></p>
-                  <div class="no-bullets">
-                    <ul>
-                      <li>
-                        <a href="/doc/class04_slides.pdf">
-                          <i class="fas fa-file-pdf" data-fa-transform="grow-16"></i>    <span class="card-downloads-format"><span class="caps">PDF</span></span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-
-                </div>
-              </li>
-
-              <li class="card-item">
-                <div class="card-activity">
-                  <i class="fas fa-laptop" data-fa-transform="grow-8"></i>&emsp;<strong>Activity</strong></div>
-                <div class="card-section">
-                  <h2>RMarkdown practice&nbsp;activity</h2>
-                  <p class="card-datetime">
-                    <time datetime="2018-05-23T10:30:00-04:00">May 23, 2018</time>
-                  </p>
-                </div>
-                <div class="card-section">
-                  <p>Practice editing RMarkdown files and saving to&nbsp;Github.</p>
-                </div>
-                <div class="card-section card-link">
-                  <p>
-                    <a href="materials/rmarkdown-practice/">
-                      <i class="fas fa-link"></i> Link</a>
-                  </p>
-                </div>
-              </li>
-
-              <li class="card-item">
-                <div class="card-class-notes">
-                  <i class="fas fa-file-alt" data-fa-transform="grow-8"></i>&emsp;<strong>Class Notes</strong></div>
-                <div class="card-section">
-                  <h2>Class 2: The data scientist&#8217;s&nbsp;toolbox</h2>
-                  <p class="card-datetime">
-                    <time datetime="2018-05-22T10:30:00-04:00">May 22, 2018</time>
-                  </p>
-                </div>
-                <div class="card-section">
-                  <p><span class="h3">Slides</span></p>
-                  <div class="no-bullets">
-                    <ul>
-                      <li>
-                        <a href="/doc/class02_slides.pdf">
-                          <i class="fas fa-file-pdf" data-fa-transform="grow-16"></i>    <span class="card-downloads-format"><span class="caps">PDF</span></span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-
-                </div>
-              </li>
-
             </ul>
-          </div>
-        </section>
-      </div>
+          </li>
+      </ul>
     </div>
-    <footer class="page-footer">
-      <div class="footer-grid-container">
-        Except where otherwise noted, site materials are created by
-        <a href="https://cos.gmu.edu/cds/faculty-profile-james-glasbrenner/">
-          James K. Glasbrenner
-        </a>
-        and licensed under a
-        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-          Creative Commons Attribution-ShareAlike 4.0 International License
-        </a>.
-      </div>
-    </footer>
-    <script src="http://summer18.cds101.com/theme/js/cds101.min.js"></script>
-    <script src="http://summer18.cds101.com/theme/js/vendor/highlightjs/highlight.min.js"></script>
-    <script src="http://summer18.cds101.com/theme/js/vendor/katex/katex.min.js"></script>
-    <script src="http://summer18.cds101.com/theme/js/vendor/katex/contrib/auto-render.min.js"></script>
-    <script src="http://summer18.cds101.com/theme/js/vendor/wookmark/wookmark.min.js"></script>
-    <script src="http://summer18.cds101.com/theme/js/vendor/fontawesome/fontawesome-all.min.js"></script>
-    <script src="http://summer18.cds101.com/theme/js/vendor/vendorInit.js"></script>
-  </body>
+  </nav>
+</div>    <div class="content-grid-container">
+  <div class="static-page">
+<header class="static-page-header">
+  <h1 class="static-page-title">Materials</h1>
+</header><section class="static-page-body">
+    <div class="wookmark-card-grid">
+      <ul>
+            <li class="card-item">
+      <div class="card-class-notes"><i class="fas fa-file-alt" data-fa-transform="grow-8"></i>&emsp;<strong>Class Notes</strong></div>
+    <div class="card-section">
+      <h2>Class 9: Statistical distributions <span class="caps">II</span></h2>
+        <p class="card-datetime"><time datetime="2018-06-01T10:30:00-04:00">June 01, 2018</time></p>
+    </div>
+    <div class="card-section">
+        <p><span class="h3">Slides</span></p>
+<div class="no-bullets">
+<ul>
+<li><a href="/doc/class09_slides.pdf"><i class="fas fa-file-pdf" data-fa-transform="grow-16"></i>    <span class="card-downloads-format"><span class="caps">PDF</span></span></a></li>
+</ul>
+</div>
 
+    </div>
+  </li>
+
+            <li class="card-item">
+      <div class="card-activity"><i class="fas fa-laptop" data-fa-transform="grow-8"></i>&emsp;<strong>Activity</strong></div>
+    <div class="card-section">
+      <h2>Chicago vehicle towing data&nbsp;activity</h2>
+        <p class="card-datetime"><time datetime="2018-05-31T10:30:00-04:00">May 31, 2018</time></p>
+    </div>
+    <div class="card-section">
+        <p>Additional practice with the <span class="monospace">dplyr</span> using vehicle towing data posted by the city of&nbsp;Chicago.</p>
+<div class="no-bullets">
+<ul>
+<li><a href="https://classroom.github.com/a/eF7HdfVO"><i class="fab fa-github-alt" data-fa-transform="grow-16"></i>    <span class="card-downloads-format"><strong>dplyr demo</strong> repo</span></a> (reusing for Chicago towing dataset&nbsp;activity)</li>
+<li><a href="https://data.cityofchicago.org/Transportation/Towed-Vehicles/ygr5-vcbg/"><i class="fas fa-link"></i>    <span class="card-downloads-format">Chicago towed vehicles&nbsp;dataset</span></a></li>
+</ul>
+</div>
+
+    </div>
+  </li>
+
+            <li class="card-item">
+      <div class="card-class-notes"><i class="fas fa-file-alt" data-fa-transform="grow-8"></i>&emsp;<strong>Class Notes</strong></div>
+    <div class="card-section">
+      <h2>Class 8: Statistical distributions&nbsp;I</h2>
+        <p class="card-datetime"><time datetime="2018-05-31T10:30:00-04:00">May 31, 2018</time></p>
+    </div>
+    <div class="card-section">
+        <p><span class="h3">Slides</span></p>
+<div class="no-bullets">
+<ul>
+<li><a href="/doc/class08_slides.pdf"><i class="fas fa-file-pdf" data-fa-transform="grow-16"></i>    <span class="card-downloads-format"><span class="caps">PDF</span></span></a></li>
+</ul>
+</div>
+
+    </div>
+  </li>
+
+            <li class="card-item">
+      <div class="card-class-notes"><i class="fas fa-file-alt" data-fa-transform="grow-8"></i>&emsp;<strong>Class Notes</strong></div>
+    <div class="card-section">
+      <h2>Class 7: Data Wrangling <span class="caps">II</span></h2>
+        <p class="card-datetime"><time datetime="2018-05-30T10:30:00-04:00">May 30, 2018</time></p>
+    </div>
+    <div class="card-section">
+        <p><span class="h3">Slides</span></p>
+<div class="no-bullets">
+<ul>
+<li><a href="/doc/class07_slides.pdf"><i class="fas fa-file-pdf" data-fa-transform="grow-16"></i>    <span class="card-downloads-format"><span class="caps">PDF</span></span></a></li>
+</ul>
+</div>
+
+    </div>
+  </li>
+
+            <li class="card-item">
+      <div class="card-activity"><i class="fas fa-laptop" data-fa-transform="grow-8"></i>&emsp;<strong>Activity</strong></div>
+    <div class="card-section">
+      <h2><span class="monospace">dplyr</span> demos <span class="caps">II</span></h2>
+        <p class="card-datetime"><time datetime="2018-05-30T10:30:00-04:00">May 30, 2018</time></p>
+    </div>
+    <div class="card-section">
+        <p>Continuation of the interactive demonstration of the major features found in the <span class="monospace">dplyr</span>&nbsp;package.</p>
+<div class="no-bullets">
+<ul>
+<li><a href="https://classroom.github.com/a/eF7HdfVO"><i class="fab fa-github-alt" data-fa-transform="grow-16"></i>    <span class="card-downloads-format"><strong>dplyr demo</strong>&nbsp;repo</span></a></li>
+</ul>
+</div>
+
+    </div>
+  </li>
+
+            <li class="card-item">
+      <div class="card-reading-nograyout"><i class="fas fa-book" data-fa-transform="grow-8"></i>&emsp;<strong>Reading</strong></div>
+    <div class="card-section">
+      <h2>Cumulative distribution&nbsp;functions</h2>
+        <p class="card-datetime"><time datetime="2018-05-30T10:30:00-04:00">May 30, 2018</time></p>
+    </div>
+    <div class="card-section">
+        <p>Reading about how to use R to compute, visualize, and apply percentiles of a&nbsp;dataset.</p>
+    </div>
+      <div class="card-section card-link">
+        <p><a href="materials/representing-distributions-cdf/"><i class="fas fa-link"></i> Link</a></p>
+      </div>
+  </li>
+
+            <li class="card-item">
+      <div class="card-reading-nograyout"><i class="fas fa-book" data-fa-transform="grow-8"></i>&emsp;<strong>Reading</strong></div>
+    <div class="card-section">
+      <h2>Probability mass&nbsp;functions</h2>
+        <p class="card-datetime"><time datetime="2018-05-30T10:30:00-04:00">May 30, 2018</time></p>
+    </div>
+    <div class="card-section">
+        <p>Reading about how to connect probabilities with values in a&nbsp;dataset.</p>
+    </div>
+      <div class="card-section card-link">
+        <p><a href="materials/representing-distributions-pmf/"><i class="fas fa-link"></i> Link</a></p>
+      </div>
+  </li>
+
+            <li class="card-item">
+      <div class="card-class-notes"><i class="fas fa-file-alt" data-fa-transform="grow-8"></i>&emsp;<strong>Class Notes</strong></div>
+    <div class="card-section">
+      <h2>Class 6: Data Wrangling&nbsp;I</h2>
+        <p class="card-datetime"><time datetime="2018-05-29T10:30:00-04:00">May 29, 2018</time></p>
+    </div>
+    <div class="card-section">
+        <p><span class="h3">Slides</span></p>
+<div class="no-bullets">
+<ul>
+<li><a href="/doc/class06_slides.pdf"><i class="fas fa-file-pdf" data-fa-transform="grow-16"></i>    <span class="card-downloads-format"><span class="caps">PDF</span></span></a></li>
+</ul>
+</div>
+
+    </div>
+  </li>
+
+            <li class="card-item">
+      <div class="card-activity"><i class="fas fa-laptop" data-fa-transform="grow-8"></i>&emsp;<strong>Activity</strong></div>
+    <div class="card-section">
+      <h2><span class="monospace">dplyr</span> demos&nbsp;I</h2>
+        <p class="card-datetime"><time datetime="2018-05-29T10:30:00-04:00">May 29, 2018</time></p>
+    </div>
+    <div class="card-section">
+        <p>An interactive demonstration of the major features found in the <span class="monospace">dplyr</span>&nbsp;package.</p>
+<div class="no-bullets">
+<ul>
+<li><a href="https://classroom.github.com/a/eF7HdfVO"><i class="fab fa-github-alt" data-fa-transform="grow-16"></i>    <span class="card-downloads-format"><strong>dplyr demo</strong>&nbsp;repo</span></a></li>
+</ul>
+</div>
+
+    </div>
+  </li>
+
+            <li class="card-item">
+      <div class="card-guide"><i class="fas fa-map" data-fa-transform="grow-8"></i>&emsp;<strong>Guide</strong></div>
+    <div class="card-section">
+      <h2>Describing univariate and bivariate&nbsp;data</h2>
+    </div>
+    <div class="card-section">
+        <p>How to write about visualizations of univariate (one variable) and bivariate (two variables)&nbsp;data.</p>
+    </div>
+      <div class="card-section card-link">
+        <p><a href="materials/describing-univariate-and-bivariate-data/"><i class="fas fa-link"></i> Link</a></p>
+      </div>
+  </li>
+
+            <li class="card-item">
+      <div class="card-class-notes"><i class="fas fa-file-alt" data-fa-transform="grow-8"></i>&emsp;<strong>Class Notes</strong></div>
+    <div class="card-section">
+      <h2>Class 5: Introduction to data and visualization <span class="caps">II</span></h2>
+        <p class="card-datetime"><time datetime="2018-05-25T10:30:00-04:00">May 25, 2018</time></p>
+    </div>
+    <div class="card-section">
+        <p><span class="h3">Slides</span></p>
+<div class="no-bullets">
+<ul>
+<li><a href="/doc/class05_slides.pdf"><i class="fas fa-file-pdf" data-fa-transform="grow-16"></i>    <span class="card-downloads-format"><span class="caps">PDF</span></span></a></li>
+</ul>
+</div>
+
+    </div>
+  </li>
+
+            <li class="card-item">
+      <div class="card-class-notes"><i class="fas fa-file-alt" data-fa-transform="grow-8"></i>&emsp;<strong>Class Notes</strong></div>
+    <div class="card-section">
+      <h2>Class 4: Introduction to data and visualization&nbsp;I</h2>
+        <p class="card-datetime"><time datetime="2018-05-24T10:30:00-04:00">May 24, 2018</time></p>
+    </div>
+    <div class="card-section">
+        <p><span class="h3">Slides</span></p>
+<div class="no-bullets">
+<ul>
+<li><a href="/doc/class04_slides.pdf"><i class="fas fa-file-pdf" data-fa-transform="grow-16"></i>    <span class="card-downloads-format"><span class="caps">PDF</span></span></a></li>
+</ul>
+</div>
+
+    </div>
+  </li>
+
+            <li class="card-item">
+      <div class="card-activity"><i class="fas fa-laptop" data-fa-transform="grow-8"></i>&emsp;<strong>Activity</strong></div>
+    <div class="card-section">
+      <h2>RMarkdown practice&nbsp;activity</h2>
+        <p class="card-datetime"><time datetime="2018-05-23T10:30:00-04:00">May 23, 2018</time></p>
+    </div>
+    <div class="card-section">
+        <p>Practice editing RMarkdown files and saving to&nbsp;Github.</p>
+    </div>
+      <div class="card-section card-link">
+        <p><a href="materials/rmarkdown-practice/"><i class="fas fa-link"></i> Link</a></p>
+      </div>
+  </li>
+
+            <li class="card-item">
+      <div class="card-class-notes"><i class="fas fa-file-alt" data-fa-transform="grow-8"></i>&emsp;<strong>Class Notes</strong></div>
+    <div class="card-section">
+      <h2>Class 2: The data scientist&#8217;s&nbsp;toolbox</h2>
+        <p class="card-datetime"><time datetime="2018-05-22T10:30:00-04:00">May 22, 2018</time></p>
+    </div>
+    <div class="card-section">
+        <p><span class="h3">Slides</span></p>
+<div class="no-bullets">
+<ul>
+<li><a href="/doc/class02_slides.pdf"><i class="fas fa-file-pdf" data-fa-transform="grow-16"></i>    <span class="card-downloads-format"><span class="caps">PDF</span></span></a></li>
+</ul>
+</div>
+
+    </div>
+  </li>
+
+      </ul>
+    </div>
+</section>  </div>
+    </div>
+<footer class="page-footer">
+    <div class="footer-grid-container">
+      Except where otherwise noted, site materials are created by
+      <a href="https://cos.gmu.edu/cds/faculty-profile-james-glasbrenner/">
+        James K. Glasbrenner
+      </a>
+      and licensed under a
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+        Creative Commons Attribution-ShareAlike 4.0 International License
+      </a>.
+    </div>
+</footer><script src="http://summer18.cds101.com/theme/js/cds101.min.js"></script>
+  <script src="http://summer18.cds101.com/theme/js/vendor/highlightjs/highlight.min.js"></script>
+  <script src="http://summer18.cds101.com/theme/js/vendor/katex/katex.min.js"></script>
+  <script src="http://summer18.cds101.com/theme/js/vendor/katex/contrib/auto-render.min.js"></script>
+  <script src="http://summer18.cds101.com/theme/js/vendor/wookmark/wookmark.min.js"></script>
+  <script src="http://summer18.cds101.com/theme/js/vendor/fontawesome/fontawesome-all.min.js"></script>
+  <script src="http://summer18.cds101.com/theme/js/vendor/vendorInit.js"></script>
+  </body>
 </html>

@@ -218,7 +218,19 @@ A photograph of the &lt;em&gt;Titanic&lt;/em&gt; leaving Southampton on April 10
 &lt;div class="callout secondary"&gt;
 &lt;p&gt;Remember to post your question about it to the &lt;code&gt;&lt;i class="fas fa-lock"&gt;&lt;/i&gt;su18-a01-readings&lt;/code&gt; channel in &lt;a href="https://masoncds101.slack.com"&gt;Slack&lt;/a&gt; by the due&amp;nbsp;date.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="reading"></category></entry><entry><title>Reading 8</title><link href="http://summer18.cds101.com/assignments/reading-8/" rel="alternate"></link><published>2018-06-01T09:00:00-04:00</published><updated>2018-06-01T09:00:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-06-01:/assignments/reading-8/</id><summary type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;a href="http://r4ds.had.co.nz/"&gt;R for Data&amp;nbsp;Science&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+</content><category term="reading"></category></entry><entry><title>Class 9: Statistical distributions II</title><link href="http://summer18.cds101.com/materials/class-9/" rel="alternate"></link><published>2018-06-01T10:30:00-04:00</published><updated>2018-06-01T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-06-01:/materials/class-9/</id><summary type="html">&lt;p&gt;&lt;span class="h3"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/doc/class09_slides.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;span class="caps"&gt;PDF&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/doc/class09_slides.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;span class="caps"&gt;PDF&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="class notes"></category></entry><entry><title>Reading 8</title><link href="http://summer18.cds101.com/assignments/reading-8/" rel="alternate"></link><published>2018-06-01T09:00:00-04:00</published><updated>2018-06-01T09:00:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-06-01:/assignments/reading-8/</id><summary type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;a href="http://r4ds.had.co.nz/"&gt;R for Data&amp;nbsp;Science&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Read the&amp;nbsp;following:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;From &lt;a href="http://r4ds.had.co.nz/tidy-data.html"&gt;chapter 12&lt;/a&gt;: from the beginning through to the end of section &lt;a href="http://r4ds.had.co.nz/tidy-data.html#missing-values-3"&gt;12.5&lt;/a&gt;&lt;/li&gt;
@@ -258,7 +270,19 @@ A photograph of the &lt;em&gt;Titanic&lt;/em&gt; leaving Southampton on April 10
 &lt;li&gt;&lt;a href="https://data.cityofchicago.org/Transportation/Towed-Vehicles/ygr5-vcbg/"&gt;&lt;i class="fas fa-link"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;Chicago towed vehicles&amp;nbsp;dataset&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</content><category term="activity"></category></entry><entry><title>Reading 7</title><link href="http://summer18.cds101.com/assignments/reading-7/" rel="alternate"></link><published>2018-05-31T09:00:00-04:00</published><updated>2018-05-31T09:00:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-05-31:/assignments/reading-7/</id><summary type="html">&lt;p&gt;Read the following writeups on the &lt;strong&gt;probability mass function&lt;/strong&gt; and &lt;strong&gt;cumulative distribution function&lt;/strong&gt;:&lt;/p&gt;
+</content><category term="activity"></category></entry><entry><title>Class 8: Statistical distributions I</title><link href="http://summer18.cds101.com/materials/class-8/" rel="alternate"></link><published>2018-05-31T10:30:00-04:00</published><updated>2018-05-31T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-05-31:/materials/class-8/</id><summary type="html">&lt;p&gt;&lt;span class="h3"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/doc/class08_slides.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;span class="caps"&gt;PDF&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/doc/class08_slides.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;span class="caps"&gt;PDF&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="class notes"></category></entry><entry><title>Reading 7</title><link href="http://summer18.cds101.com/assignments/reading-7/" rel="alternate"></link><published>2018-05-31T09:00:00-04:00</published><updated>2018-05-31T09:00:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-05-31:/assignments/reading-7/</id><summary type="html">&lt;p&gt;Read the following writeups on the &lt;strong&gt;probability mass function&lt;/strong&gt; and &lt;strong&gt;cumulative distribution function&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="/materials/representing-distributions-pmf/"&gt;Representing distributions: Probability mass&amp;nbsp;function&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="/materials/representing-distributions-cdf/"&gt;Representing distributions: Cumulative distribution&amp;nbsp;function&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -403,7 +427,19 @@ A photograph of the &lt;em&gt;Titanic&lt;/em&gt; leaving Southampton on April 10
 &lt;li&gt;&lt;a href="/doc/rmarkdown-reference.pdf"&gt;RMarkdown&amp;nbsp;reference&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="/doc/ggplot2-cheatsheet.pdf"&gt;&lt;code&gt;ggplot2&lt;/code&gt; cheatsheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content><category term="homework"></category></entry><entry><title>dplyr demos II</title><link href="http://summer18.cds101.com/materials/dplyr-demos-activity-ii/" rel="alternate"></link><published>2018-05-30T10:30:00-04:00</published><updated>2018-05-30T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-05-30:/materials/dplyr-demos-activity-ii/</id><summary type="html">&lt;p&gt;Continuation of the interactive demonstration of the major features found in the &lt;span class="monospace"&gt;dplyr&lt;/span&gt;&amp;nbsp;package.&lt;/p&gt;
+</content><category term="homework"></category></entry><entry><title>Class 7: Data Wrangling II</title><link href="http://summer18.cds101.com/materials/class-7/" rel="alternate"></link><published>2018-05-30T10:30:00-04:00</published><updated>2018-05-30T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-05-30:/materials/class-7/</id><summary type="html">&lt;p&gt;&lt;span class="h3"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/doc/class07_slides.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;span class="caps"&gt;PDF&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/doc/class07_slides.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;span class="caps"&gt;PDF&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="class notes"></category></entry><entry><title>dplyr demos II</title><link href="http://summer18.cds101.com/materials/dplyr-demos-activity-ii/" rel="alternate"></link><published>2018-05-30T10:30:00-04:00</published><updated>2018-05-30T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-05-30:/materials/dplyr-demos-activity-ii/</id><summary type="html">&lt;p&gt;Continuation of the interactive demonstration of the major features found in the &lt;span class="monospace"&gt;dplyr&lt;/span&gt;&amp;nbsp;package.&lt;/p&gt;
 &lt;div class="no-bullets"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://classroom.github.com/a/eF7HdfVO"&gt;&lt;i class="fab fa-github-alt" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;strong&gt;dplyr demo&lt;/strong&gt;&amp;nbsp;repo&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
@@ -768,7 +804,19 @@ Virginia
 &lt;div class="callout secondary"&gt;
 &lt;p&gt;Remember to post your question about it to the &lt;code&gt;&lt;i class="fas fa-lock"&gt;&lt;/i&gt;su18-a01-readings&lt;/code&gt; channel in &lt;a href="https://masoncds101.slack.com"&gt;Slack&lt;/a&gt; by the due&amp;nbsp;date.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="reading"></category></entry><entry><title>dplyr demos I</title><link href="http://summer18.cds101.com/materials/dplyr-demos-activity-i/" rel="alternate"></link><published>2018-05-29T10:30:00-04:00</published><updated>2018-05-29T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-05-29:/materials/dplyr-demos-activity-i/</id><summary type="html">&lt;p&gt;An interactive demonstration of the major features found in the &lt;span class="monospace"&gt;dplyr&lt;/span&gt;&amp;nbsp;package.&lt;/p&gt;
+</content><category term="reading"></category></entry><entry><title>Class 6: Data Wrangling I</title><link href="http://summer18.cds101.com/materials/class-6/" rel="alternate"></link><published>2018-05-29T10:30:00-04:00</published><updated>2018-05-29T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-05-29:/materials/class-6/</id><summary type="html">&lt;p&gt;&lt;span class="h3"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/doc/class06_slides.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;span class="caps"&gt;PDF&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/doc/class06_slides.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;span class="caps"&gt;PDF&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="class notes"></category></entry><entry><title>dplyr demos I</title><link href="http://summer18.cds101.com/materials/dplyr-demos-activity-i/" rel="alternate"></link><published>2018-05-29T10:30:00-04:00</published><updated>2018-05-29T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-05-29:/materials/dplyr-demos-activity-i/</id><summary type="html">&lt;p&gt;An interactive demonstration of the major features found in the &lt;span class="monospace"&gt;dplyr&lt;/span&gt;&amp;nbsp;package.&lt;/p&gt;
 &lt;div class="no-bullets"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://classroom.github.com/a/eF7HdfVO"&gt;&lt;i class="fab fa-github-alt" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;strong&gt;dplyr demo&lt;/strong&gt;&amp;nbsp;repo&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
@@ -1378,7 +1426,7 @@ Virginia
 &lt;li id="fn4"&gt;&lt;p&gt;The term “devices” is meant to be broad and includes classroom computers, laptops, cell phones, tablets and e-readers, smart watches, etc. Exceptions can be made in cases of family or personal emergencies, please speak to me before class.&lt;a href="#fnref4" class="footnote-back"&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
-</content></entry><entry><title>Datasets</title><link href="http://summer18.cds101.com/" rel="alternate"></link><published>2018-05-21T10:30:00-04:00</published><updated>2018-05-21T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-05-21:/</id><summary type="html">&lt;table&gt;
+</content></entry><entry><title>Datasets</title><link href="http://summer18.cds101.com/" rel="alternate"></link><published>2018-05-21T10:30:00-04:00</published><updated>2018-06-01T17:25:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-05-21:/</id><summary type="html">&lt;table&gt;
 &lt;colgroup&gt;
 &lt;col style="width: 12%" /&gt;
 &lt;col style="width: 9%" /&gt;
@@ -1393,19 +1441,19 @@ Virginia
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr class="odd"&gt;
-&lt;td style="text-align: center;"&gt;&lt;span class="monospace"&gt;county-complete&lt;/span&gt;&lt;/td&gt;
-&lt;td style="text-align: center;"&gt;&lt;a href="/files/datasets/county_complete.rds"&gt;rds&lt;/a&gt;&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;Dataset of selected variables for 3,143 counties taken from the United States Census&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;span class="monospace"&gt;rail_trail&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;a href="/files/datasets/rail_trail.rds"&gt;rds&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Dataset counting the number of people that pass through a sensor on a rail trail &lt;br&gt; Dataset for &lt;a href="/assignments/homework-1/"&gt;Homework 1&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class="even"&gt;
-&lt;td style="text-align: center;"&gt;&lt;span class="monospace"&gt;yawn&lt;/span&gt;&lt;/td&gt;
-&lt;td style="text-align: center;"&gt;&lt;a href="/files/datasets/yawn.csv"&gt;csv&lt;/a&gt;&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;Dataset of yawning experiment performed on &lt;em&gt;Mythbusters&lt;/em&gt; television show&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;span class="monospace"&gt;titanic&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;a href="/files/datasets/titanic_dataset.csv"&gt;csv&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Dataset about the passengers on the Titanic &lt;br&gt; Dataset for &lt;a href="/assignments/homework-2/"&gt;Homework 2&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class="odd"&gt;
-&lt;td style="text-align: center;"&gt;&lt;span class="monospace"&gt;mariokart&lt;/span&gt;&lt;/td&gt;
-&lt;td style="text-align: center;"&gt;&lt;a href="/files/datasets/mariokart.rds"&gt;rds&lt;/a&gt;&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;Dataset from ebay.com for the game Mario Kart for the Nintendo Wii. This data was collected in …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;table&gt;
+&lt;td style="text-align: center;"&gt;&lt;span class="monospace"&gt;county-complete&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;a href="/files/datasets/county_complete.rds"&gt;rds&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Dataset of selected variables for 3,143 counties taken from the …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;table&gt;
 &lt;colgroup&gt;
 &lt;col style="width: 12%" /&gt;
 &lt;col style="width: 9%" /&gt;
@@ -1420,9 +1468,19 @@ Virginia
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr class="odd"&gt;
+&lt;td style="text-align: center;"&gt;&lt;span class="monospace"&gt;rail_trail&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;a href="/files/datasets/rail_trail.rds"&gt;rds&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Dataset counting the number of people that pass through a sensor on a rail trail &lt;br&gt; Dataset for &lt;a href="/assignments/homework-1/"&gt;Homework 1&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td style="text-align: center;"&gt;&lt;span class="monospace"&gt;titanic&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;a href="/files/datasets/titanic_dataset.csv"&gt;csv&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Dataset about the passengers on the Titanic &lt;br&gt; Dataset for &lt;a href="/assignments/homework-2/"&gt;Homework 2&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
 &lt;td style="text-align: center;"&gt;&lt;span class="monospace"&gt;county-complete&lt;/span&gt;&lt;/td&gt;
 &lt;td style="text-align: center;"&gt;&lt;a href="/files/datasets/county_complete.rds"&gt;rds&lt;/a&gt;&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;Dataset of selected variables for 3,143 counties taken from the United States Census&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Dataset of selected variables for 3,143 counties taken from the United States Census &lt;br&gt; Dataset for &lt;a href="/materials/representing-distributions-pmf/"&gt;&lt;span class="caps"&gt;PMF&lt;/span&gt;&lt;/a&gt; and &lt;a href="/materials/representing-distributions-cdf/"&gt;&lt;span class="caps"&gt;CDF&lt;/span&gt;&lt;/a&gt; writeups&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class="even"&gt;
 &lt;td style="text-align: center;"&gt;&lt;span class="monospace"&gt;yawn&lt;/span&gt;&lt;/td&gt;
@@ -1436,7 +1494,7 @@ Virginia
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</content></entry><entry><title>Summer 2018 Schedule</title><link href="http://summer18.cds101.com//index.html" rel="alternate"></link><published>2018-05-21T10:30:00-04:00</published><updated>2018-05-31T17:15:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-05-21://index.html</id><summary type="html">&lt;table&gt;
+</content></entry><entry><title>Summer 2018 Schedule</title><link href="http://summer18.cds101.com//index.html" rel="alternate"></link><published>2018-05-21T10:30:00-04:00</published><updated>2018-06-01T17:15:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-05-21://index.html</id><summary type="html">&lt;table&gt;
 &lt;colgroup&gt;
 &lt;col style="width: 9%" /&gt;
 &lt;col style="width: 6%" /&gt;
@@ -1578,8 +1636,10 @@ data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;6&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;May-29&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;Data Wrangling I&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;&lt;a href="https://classroom.github.com/a/eF7HdfVO"&gt;&lt;i
+&lt;td style="text-align: left;"&gt;&lt;a href="/materials/class-6/"&gt;Data Wrangling I&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;a href="/doc/class06_slides.pdf"&gt;&lt;i
+class="fas fa-file-pdf"
+data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;  &lt;a href="https://classroom.github.com/a/eF7HdfVO"&gt;&lt;i
 class="fab fa-github-alt"
 data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;a href="/assignments/reading-5/"&gt;Reading 5&lt;/a&gt;&lt;/td&gt;
@@ -1588,8 +1648,10 @@ data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;7&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;May-30&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;Data Wrangling &lt;span class="caps"&gt;II&lt;/span&gt;&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;&lt;a href="https://classroom.github.com/a/eF7HdfVO"&gt;&lt;i
+&lt;td style="text-align: left;"&gt;&lt;a href="/materials/class-7/"&gt;Data Wrangling &lt;span class="caps"&gt;II&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;a href="/doc/class07_slides.pdf"&gt;&lt;i
+class="fas fa-file-pdf"
+data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;  &lt;a href="https://classroom.github.com/a/eF7HdfVO"&gt;&lt;i
 class="fab fa-github-alt"
 data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;a href="/assignments/homework-1/"&gt;Homework 1&lt;/a&gt; &lt;br&gt; &lt;a href="/assignments/reading-6/"&gt;Reading 6&lt;/a&gt;&lt;/td&gt;
@@ -1598,8 +1660,10 @@ data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;8&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;May-31&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;Statistical distributions&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;&lt;a href="https://classroom.github.com/a/eF7HdfVO"&gt;&lt;i
+&lt;td style="text-align: left;"&gt;&lt;a href="/materials/class-8/"&gt;Statistical distributions I&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;a href="/doc/class08_slides.pdf"&gt;&lt;i
+class="fas fa-file-pdf"
+data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;  &lt;a href="https://classroom.github.com/a/eF7HdfVO"&gt;&lt;i
 class="fab fa-github-alt"
 data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;a href="/assignments/reading-7/"&gt;Reading 7&lt;/a&gt;&lt;/td&gt;
@@ -1608,15 +1672,17 @@ data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;9&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Jun-01&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;Data Wrangling &lt;span class="caps"&gt;III&lt;/span&gt;&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;a href="/materials/class-9/"&gt;Statistical distributions &lt;span class="caps"&gt;II&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;a href="/doc/class09_slides.pdf"&gt;&lt;i
+class="fas fa-file-pdf"
+data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;a href="/assignments/reading-8/"&gt;Reading 8&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class="odd"&gt;
 &lt;td style="text-align: left;"&gt;Week 3&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;10&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Jun-04&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Tidy data&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;a href="/assignments/reading-9/"&gt;Reading 9&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
