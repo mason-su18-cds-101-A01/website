@@ -88,7 +88,7 @@ PLUGINS = [
     "custom_article_urls",
     "pandoc_reader",
     "rmd_reader",
-    "pelican-plugin-tidy-html",
+    # "pelican-plugin-tidy-html",
 ]
 
 # Plugin: Custom Article URLs
