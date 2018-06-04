@@ -69,7 +69,11 @@ Week 2                      May-28        **Memorial Day** (No class)           
 Week 3           10         Jun-04        [Tidy data]                                         [<i                           [Reading 9]
                                                                                               class="fas fa-file-pdf"
                                                                                               data-fa-transform="grow-8">
-                                                                                              </i>][c10-sl]
+                                                                                              </i>][c10-sl]&emsp;
+                                                                                              [<i
+                                                                                              class="fab fa-github-alt"
+                                                                                              data-fa-transform="grow-8">
+                                                                                              </i>][c10-gh]
 
                  11         Jun-05
 
@@ -101,6 +105,7 @@ Week 3           10         Jun-04        [Tidy data]                           
 [c8-gh]:                                     https://classroom.github.com/a/eF7HdfVO
 [c9-sl]:                                     /doc/class09_slides.pdf
 [c10-sl]:                                    /doc/class10_slides.pdf
+[c10-gh]:                                    https://classroom.github.com/a/SKb0g-iN
 [Reading 1]:                                 /assignments/reading-1/
 [Reading 2]:                                 /assignments/reading-2/
 [Reading 3]:                                 /assignments/reading-3/
