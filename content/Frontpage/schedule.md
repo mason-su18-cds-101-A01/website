@@ -2,7 +2,7 @@ Title: Summer 2018 Schedule
 Author: Dr. Glasbrenner
 Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
 Date: 2018-05-21 10:30
-Modified: 2018-06-01 17:15
+Modified: 2018-06-04 10:00
 Index_save_as: index.html
 Url: /index.html
 
@@ -68,7 +68,21 @@ Week 2                      May-28        **Memorial Day** (No class)           
 
 Week 3           10         Jun-04        Tidy data                                                                         [Reading 9]
 
-                 11         Jun-06                                                                                          [Homework 2]
+                 11         Jun-05
+
+                 12         Jun-06                                                                                          [Homework 2]
+
+                 13         Jun-07
+
+                 14         Jun-08
+
+                 15         Jun-11
+
+                 16         Jun-12
+
+                 17         Jun-13
+
+                 18         Jun-14        Midterm project presentations                                                     [Midterm project]
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -94,6 +108,7 @@ Week 3           10         Jun-04        Tidy data                             
 [Reading 9]:                                 /assignments/reading-9/
 [Homework 1]:                                /assignments/homework-1/
 [Homework 2]:                                /assignments/homework-2/
+[Midterm project]:                           /assignments/midterm-project/
 [The data scientist's toolbox I]:            /materials/class-2/
 [Introduction to data and visualization I]:  /materials/class-4/
 [Introduction to data and visualization II]: /materials/class-5/
