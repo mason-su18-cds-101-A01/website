@@ -2,7 +2,7 @@ Title: Summer 2018 Schedule
 Author: Dr. Glasbrenner
 Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
 Date: 2018-05-21 10:30
-Modified: 2018-06-04 10:00
+Modified: 2018-06-04 17:00
 Index_save_as: index.html
 Url: /index.html
 
@@ -66,7 +66,10 @@ Week 2                      May-28        **Memorial Day** (No class)           
                                                                                               data-fa-transform="grow-8">
                                                                                               </i>][c9-sl]
 
-Week 3           10         Jun-04        Tidy data                                                                         [Reading 9]
+Week 3           10         Jun-04        [Tidy data]                                         [<i                           [Reading 9]
+                                                                                              class="fas fa-file-pdf"
+                                                                                              data-fa-transform="grow-8">
+                                                                                              </i>][c10-sl]
 
                  11         Jun-05
 
@@ -97,6 +100,7 @@ Week 3           10         Jun-04        Tidy data                             
 [c8-sl]:                                     /doc/class08_slides.pdf
 [c8-gh]:                                     https://classroom.github.com/a/eF7HdfVO
 [c9-sl]:                                     /doc/class09_slides.pdf
+[c10-sl]:                                    /doc/class10_slides.pdf
 [Reading 1]:                                 /assignments/reading-1/
 [Reading 2]:                                 /assignments/reading-2/
 [Reading 3]:                                 /assignments/reading-3/
@@ -116,5 +120,6 @@ Week 3           10         Jun-04        Tidy data                             
 [Data Wrangling II]:                         /materials/class-7/
 [Statistical distributions I]:               /materials/class-8/
 [Statistical distributions II]:              /materials/class-9/
+[Tidy data]:                                 /materials/class-10/
 [Can Twitter predict election results]:      /assignments/can-twitter-predict-election-results-mini-assignment/
 [Visualization mini-assignment]:             /assignments/visualization-mini-assignment/
