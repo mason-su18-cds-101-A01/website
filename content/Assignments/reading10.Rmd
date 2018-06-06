@@ -1,7 +1,7 @@
 Title: Reading 10
 Author: Dr. Glasbrenner
 Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
-Date: 2018-06-08 10:30
+Date: 2018-06-08 09:00
 Tags: reading
 Slug: reading-10
 Show_summary: false
