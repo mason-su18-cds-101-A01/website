@@ -2,7 +2,7 @@ Title: Summer 2018 Schedule
 Author: Dr. Glasbrenner
 Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
 Date: 2018-05-21 10:30
-Modified: 2018-06-04 17:00
+Modified: 2018-06-06 17:00
 Index_save_as: index.html
 Url: /index.html
 
@@ -77,7 +77,14 @@ Week 3           10         Jun-04        [Tidy data]                           
 
                  11         Jun-05
 
-                 12         Jun-06                                                                                          [Homework 2]
+                 12         Jun-06        [Web scraping I]                                    [<i                           [Homework 2]
+                                                                                              class="fas fa-file-pdf"
+                                                                                              data-fa-transform="grow-8">
+                                                                                              </i>][c12-sl]&emsp;
+                                                                                              [<i
+                                                                                              class="fab fa-github-alt"
+                                                                                              data-fa-transform="grow-8">
+                                                                                              </i>][c12-gh]
 
                  13         Jun-07
 
@@ -106,6 +113,8 @@ Week 3           10         Jun-04        [Tidy data]                           
 [c9-sl]:                                     /doc/class09_slides.pdf
 [c10-sl]:                                    /doc/class10_slides.pdf
 [c10-gh]:                                    https://classroom.github.com/a/SKb0g-iN
+[c12-sl]:                                    /doc/class12_slides.pdf
+[c12-gh]:                                    https://classroom.github.com/a/l9662GMD
 [Reading 1]:                                 /assignments/reading-1/
 [Reading 2]:                                 /assignments/reading-2/
 [Reading 3]:                                 /assignments/reading-3/
@@ -126,5 +135,6 @@ Week 3           10         Jun-04        [Tidy data]                           
 [Statistical distributions I]:               /materials/class-8/
 [Statistical distributions II]:              /materials/class-9/
 [Tidy data]:                                 /materials/class-10/
+[Web scraping I]:                            /materials/class-12/
 [Can Twitter predict election results]:      /assignments/can-twitter-predict-election-results-mini-assignment/
 [Visualization mini-assignment]:             /assignments/visualization-mini-assignment/
