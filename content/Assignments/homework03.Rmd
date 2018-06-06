@@ -4,15 +4,17 @@ Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
 Date: 2018-06-12 23:59
 Tags: homework
 Slug: homework-3
-Summary: For this homework assignment, you will practice using the SelectorGadget Chrome extension to find the CSS selectors needed to scrape information from a webpage and use the rvest package to scrape data from the official Mason Patriots sports website.
+Summary: For this homework assignment, you will use the SelectorGadget Chrome extension and the rvest package to scrape data from the official Mason Patriots sports website.
 Show_summary: true
 Show_link: true
 
 ```{r setup, include = FALSE}
 # DO NOT ALTER THIS CHUNK
-knitr::opts_chunk$set(echo = FALSE, eval = TRUE, fig.width = 5, dev = "svg",
-                      fig.asp = 0.618, out.width = "70%", dpi = 120,
-                      fig.align = "center", cache = TRUE)
+knitr::opts_chunk$set(
+  echo = FALSE, eval = TRUE, fig.width = 5,
+  fig.asp = 0.618, out.width = "70%", dpi = 120,
+  fig.align = "center", cache = TRUE, dev = "svg"
+)
 
 icon_pdf <- '<i class="fas fa-file-pdf" data-fa-transform="grow-8"></i>&nbsp;'
 icon_html5 <- '<i class="fab fa-html5" data-fa-transform="grow-8"></i>&nbsp;'
@@ -29,57 +31,20 @@ icon_github <- '<i class="fab fa-github-alt" data-fa-transform="grow-8"></i>&nbs
 
 ## Instructions
 
-For this homework assignment, you will practice using the [[SelectorGadget]{.monospace} Chrome extension][selectorgadget-extension] to find the CSS selectors needed to scrape information from a webpage and use the [rvest]{.monospace} package to scrape data from the [official Mason Patriots sports website][mason-sports-site].
+For this homework assignment, you will use the [[SelectorGadget]{.monospace} Chrome extension][selectorgadget-extension] and the [rvest]{.monospace} package to scrape data from the [official Mason Patriots sports website][mason-sports-site].
 
 [Obtain the Github repository you will use to complete homework 3][github-classroom] that contains a starter RMarkdown file named [homework_3.Rmd]{.monospace}, which you will use to do your work and write-up when completing the questions below.
 Remember to fill in your name at the top of the RMarkdown document and be sure to save, commit, and push (upload) frequently to Github so that you have incremental snapshots of your work.
 When you're done, follow the [How to submit](#how-to-submit) section below to setup a Pull Request, which will be used for feedback.
 
-## Part 1 – [SelectorGadget]{.monospace} practice
-
-One of the ways to target specific information on the webpage is through the use of CSS selectors, and becoming more comfortable with them will help you build more effective webscraping code.
-The [[SelectorGadget]{.monospace} Chrome extension][selectorgadget-extension] is a convenient tool for determining the CSS selectors you need for a webscraping task.
-For a refresher on how to use the extension, [review the [SelectorGadget]{.monospace} vignette][selectorgadget-vignette].
-
-For this part of the homework, use the [SelectorGadget]{.monospace} tool to figure out the CSS selectors needed to scrape specific data from a linked page.
-**You only need to report the CSS selectors needed to get the information and do not need to write [rvest]{.monospace} code to formally extract it**, although you are welcome to write code to test the CSS selectors if you like.
-
-@.  Using the [SelectorGadget]{.monospace} tool, find the CSS selectors for the following information on the IMDB page for the television show *The Office*, <https://www.imdb.com/title/tt0386676/>:
-    
-    *   Number of episodes
-    
-    *   Certificate (TV Rating)
-    
-    *   First five plot keywords
-    
-    *   Genres
-    
-    *   Runtime
-    
-    *   Country
-    
-    *   Language
-
-@.  Using the [SelectorGadget]{.monospace} tool, find the CSS selectors for the following information on the data.gov *Data Catalog*, <https://catalog.data.gov/dataset>:
-    
-    *   Number of datasets found
-    
-    *   Dataset names  (example: *Demographic Statistics By Zip Code*)
-    
-    *   Dataset organization (example: *City of New York*)
-    
-    *   Dataset description (example: "Demographic statistics broken down by zip code")
-    
-    *   Dataset type (the ribbons on the upper-right of each row, for example: *Federal*, *City*)
-
-## Part 2 – Scraping Mason Patriots Scores
+## Scraping Mason Patriots Scores
 
 Webscrapers can be used for all kinds of purposes, such as building movie review databases, tracking prices for goods and services, and analyzing how a news story is reported on different news sites.
 Collecting sports data is another example, which can be used to [quantify how valuable players are][nytimes-fantasy-football-data-science] when [putting together a fantasy sports team][villanova-big-data-fantasy-football].
 Actual sports teams also employ statistical methods when drafting players and developing strategies, with [Sabermetrics][sabermetrics-wiki] (depicted in the movie [*Moneyball*][moneyball-imdb]) being one of the better-known examples.
 
-For this part of the homework, we will scrape the 2017 – 2018 season schedules and scores for the men's and women's basketball teams on the official [Mason Patriots sports site][mason-sports-site].
-For reference, the 2017-2018 schedule and scores page for the men's team should look like this:
+For this homework assignment, we will scrape the 2017 – 2018 season schedules and scores for the men's and women's basketball teams on the official [Mason Patriots sports site][mason-sports-site] (http://gomason.com).
+For reference, the 2017 – 2018 schedule and scores page for the men's team should look like this:
 
 ```{r womens-basketball-17-18-season-page, eval = TRUE, echo = FALSE}
 knitr::include_graphics("img/gomason-2017-2018-mens-basketball.png")
@@ -92,12 +57,11 @@ knitr::include_graphics("img/gomason-2017-2018-womens-basketball.png")
 ```
 
 The following questions will guide you through the process of scraping this data.
-You are encouraged to review the examples provided in the [Web scraping activity][web-scraping-repo], the [Class 16 slides][class-16-slides-pdf], and the [Class 19 slides][class-19-slides-pdf] while completing this part of the homework assignment.
 
 ### Men's basketball schedule and scores
 
-@.  To start, you need to load the men's basketball schedule and scores page into R.
-    Do this using one line of code, and assign the accessed page data to a variable called `mens_bb`.
+@.  To start, fetch the HTML for the men's basketball schedule page and save the result to disk so that you have an offline copy.
+    After you've saved the HTML in your project folder (you should also stage and commit this file as part of your homework submission), read it into R and assign it to a variable called `mens_bb`.
     
 @.  Mason's opponent for each game is listed on the left side of each row, just after a small box that says *VS* or *AT*.
     Use the [SelectorGadget]{.monospace} tool to determine the CSS selector needed to scrape this information, and then write the code that scrapes this information.
@@ -131,8 +95,8 @@ You are encouraged to review the examples provided in the [Web scraping activity
     Pipe ([%>%]{.monospace}) your scraped data into the `str_remove()` function and tell it to get rid of the comma.
     Assign the scraped data to a variable called `mens_win_loss`.
     
-@.  Use the `data_frame()` function to create a tibble containing your scraped data.
-    The columns should have the following names and be in this order:
+@.  Use the `data_frame()` function to store your scraped data as a data frame and assign it to a variable called `mens_df`.
+    Your data frame should have 33 rows with columns in the following order:
     
     *   [date]{.monospace}
     *   [time]{.monospace}
@@ -140,16 +104,14 @@ You are encouraged to review the examples provided in the [Web scraping activity
     *   [location]{.monospace}
     *   [score]{.monospace}
     *   [win_loss]{.monospace}
-    
-    Assign the tibble to a variable called `mens_df`.
-    This table should have 33 rows.
 
 ### Women's basketball schedule and scores
 
-@.  The code you created for scraping the men's basketball team schedule and score should also work on the page for the women's team with minimal changes.
+@.  The code you created for scraping the men's basketball team schedule and scores can be used as a starting point for scraping the women's team schedule.
     Copy the code you wrote in the blocks for the men's page and paste it here.
     **Change the prefix of the variable names you assign each output into from `mens_` to `womens_`, and the code so that it loads the women's schedule and scores page**.
-    The final result should be a tibble assigned to a variable called `womens_df`, which has the following columns in this order:
+    Fix the code where necessary until you've scraped all the women's scores, then use `data_frame()` to store your scraped data in a data frame and assign it to a variable called `womens_df`.
+    Your data frame should have 34 rows with columns in the following order:
     
     *   [date]{.monospace}
     *   [time]{.monospace}
@@ -157,23 +119,23 @@ You are encouraged to review the examples provided in the [Web scraping activity
     *   [location]{.monospace}
     *   [score]{.monospace}
     *   [win_loss]{.monospace}
-    
-    This table should have 34 rows.
     
 ### Quick data exploration
 
 Collecting data doesn't serve much of a purpose if we don't explore or analyze it.
 Create the summary reports and visualizations requested below to help you better understand the data you just collected.
 
-@. What was the average score for the men's team (Mason only) when they won a game and when they lost a game?
-   What was the average score for the women's team (Mason only) when they won a game and when they lost a game?
+@.  What was the average score for the men's team (Mason only) when they won a game and when they lost a game?
+    What was the average score for the women's team (Mason only) when they won a game and when they lost a game?
+        
+    ::: {.callout .secondary}
+    **Hint:** To answer this, you will need to use the `separate()` function.
+    :::
     
-    **Hint: To answer this, you will need to use the `separate()` function.**
-    
-@. Plot the men's histogram of scores and the women's histogram of scores (just for the Mason teams, not the opponents), and then compare the two histograms.
-   Which histogram is centered at a higher score?
-   Which histogram has the larger spread?
-   Are there any other notable differences?
+@.  Plot the men's histogram of scores and the women's histogram of scores (just for the Mason teams, not the opponents), and then compare the two histograms.
+    Which histogram is centered at a higher score?
+    Which histogram has the larger spread?
+    Are there any other notable differences?
 
 ## How to submit
 
@@ -194,7 +156,7 @@ Confirm that your files are up-to-date, and then do the following steps:
 
 6.  Give the *pull request* the following title: [Submission: Homework 3, FirstName LastName]{.monospace}, replacing [FirstName]{.monospace} and [LastName]{.monospace} with your actual first and last name.
 
-7.  In the messagebox, write: [My homework submission is ready for grading \@shuaibm \@jkglasbrenner]{.monospace}.
+7.  In the messagebox, write: [My homework submission is ready for grading \@jkglasbrenner]{.monospace}.
 
 8.  Click "Create pull request" to lock in your submission.
 
@@ -216,14 +178,12 @@ You are encouraged to review and keep the following cheatsheets handy while work
 
 [homework-pdf]:                          /doc/cds101_homework3.pdf
 [moneyball-imdb]:                        https://www.imdb.com/title/tt1210166/
-[github-classroom]:                      #
-[web-scraping-repo]:                     #
+[github-classroom]:                      https://classroom.github.com/a/KYBcjnmt
+[web-scraping-repo]:                     https://classroom.github.com/a/l9662GMD
 [mason-sports-site]:                     http://gomason.com
 [sabermetrics-wiki]:                     https://en.wikipedia.org/wiki/Sabermetrics
 [ggplot2-cheatsheet]:                    /doc/ggplot2-cheatsheet.pdf
 [rstudio-cheatsheet]:                    /doc/rstudio-IDE-cheatsheet.pdf
-[class-16-slides-pdf]:                   /doc/class16_slides.pdf
-[class-19-slides-pdf]:                   /doc/class19_slides.pdf
 [rmarkdown-reference]:                   /doc/rmarkdown-reference.pdf
 [rmarkdown-cheatsheet]:                  /doc/rmarkdown-cheatsheet.pdf
 [data-import-cheatsheet]:                /doc/data-import-cheatsheet.pdf
