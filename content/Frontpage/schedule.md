@@ -2,7 +2,7 @@ Title: Summer 2018 Schedule
 Author: Dr. Glasbrenner
 Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
 Date: 2018-05-21 10:30
-Modified: 2018-06-08 20:20
+Modified: 2018-06-08 20:35
 Index_save_as: index.html
 Url: /index.html
 
@@ -100,9 +100,10 @@ Week 3           10         Jun-04        [Tidy data]                           
                                                                                               data-fa-transform="grow-8">
                                                                                               </i>][c14-sl]&emsp;
 
-                 15         Jun-11        Inference and simulation I
+                 15         Jun-11        Inference and simulation I                                                        [Reading 11]
 
-                 16         Jun-12        Inference and simulation II                                                       [Homework 3]
+                 16         Jun-12        Inference and simulation II                                                       [Reading 12] <br>
+                                                                                                                            [Homework 3]
 
                  17         Jun-13
 
@@ -138,6 +139,8 @@ Week 3           10         Jun-04        [Tidy data]                           
 [Reading 8]:                                   /assignments/reading-8/
 [Reading 9]:                                   /assignments/reading-9/
 [Reading 10]:                                  /assignments/reading-10/
+[Reading 11]:                                  /assignments/reading-11/
+[Reading 12]:                                  /assignments/reading-12/
 [Homework 1]:                                  /assignments/homework-1/
 [Homework 2]:                                  /assignments/homework-2/
 [Homework 3]:                                  /assignments/homework-3/
