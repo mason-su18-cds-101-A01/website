@@ -15,6 +15,7 @@ set_r_environment <- function() {
     normalizePath(Sys.getenv("HOME")),
     ".Renviron"
   )
+  file.create(renviron_file_path)
   renviron_file <- file(description = renviron_file_path)
   renviron <- readLines(con = renviron_file)
   subset_renviron <- !mapply(
