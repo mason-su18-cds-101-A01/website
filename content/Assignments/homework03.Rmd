@@ -1,7 +1,7 @@
 Title: Homework 3
 Author: Dr. Glasbrenner
 Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
-Date: 2018-06-12 23:59
+Date: 2018-06-13 23:59
 Tags: homework
 Slug: homework-3
 Summary: For this homework assignment, you will use the SelectorGadget Chrome extension and the rvest package to scrape data from the official Mason Patriots sports website.
@@ -21,7 +21,7 @@ icon_html5 <- '<i class="fab fa-html5" data-fa-transform="grow-8"></i>&nbsp;'
 icon_github <- '<i class="fab fa-github-alt" data-fa-transform="grow-8"></i>&nbsp;'
 ```
 
-[**Due:** June 12, 2018 @ 11:59pm]{.h3}
+[**Due:** June 13, 2018 @ 11:59pm]{.h3}
 
 ::: {.no-bullets}
 *   [`r icon_pdf` Offline copy of instructions][homework-pdf]
