@@ -2,7 +2,7 @@ Title: Summer 2018 Schedule
 Author: Dr. Glasbrenner
 Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
 Date: 2018-05-21 10:30
-Modified: 2018-06-13 19:15
+Modified: 2018-06-14 23:25
 Index_save_as: index.html
 Url: /index.html
 
@@ -129,7 +129,7 @@ Week 5           20         Jun-18        Modeling II                           
                  22         Jun-20        Modeling IV <br>                                                                  [Homework 4] <br>
                                           Course wrap-up                                                                    [Homework 5 (extra credit)]
 
-                            Jun-22        **[Final Interview]{.smallcaps}** <br>                                            Final project
+                            Jun-22        **[Final Interview]{.smallcaps}** <br>                                            [Final project]
                                           *Time: 10:30am -- 1:15pm*
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
