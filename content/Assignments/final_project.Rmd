@@ -230,7 +230,7 @@ Your comparative discussion must be at least 2 paragraphs in length (a minimum o
 [class-16-slides]:         /doc/class16_slides.pdf
 [class-17-slides]:         /doc/class17_slides.pdf
 [ggplot2-package]:         http://ggplot2.tidyverse.org/
-[github-group-repo]:       #
+[github-group-repo]:       https://github.com/mason-su18-cds-101-A01/final-project-r-notes
 [final-project-pdf]:       /doc/final_project_instructions.pdf
 [schelling-model-js]:      https://jkglasbrenner.github.io/schelling-model-js/
 [selectorgadget-tool]:     http://selectorgadget.com/
