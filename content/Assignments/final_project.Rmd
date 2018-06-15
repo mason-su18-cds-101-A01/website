@@ -234,4 +234,4 @@ Your comparative discussion must be at least 2 paragraphs in length (a minimum o
 [final-project-pdf]:       /doc/final_project_instructions.pdf
 [schelling-model-js]:      https://jkglasbrenner.github.io/schelling-model-js/
 [selectorgadget-tool]:     http://selectorgadget.com/
-[github-simulations-repo]: #
+[github-simulations-repo]: https://classroom.github.com/a/kTEArn_-
