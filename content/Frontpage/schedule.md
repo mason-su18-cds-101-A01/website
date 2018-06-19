@@ -2,7 +2,7 @@ Title: Summer 2018 Schedule
 Author: Dr. Glasbrenner
 Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
 Date: 2018-05-21 10:30
-Modified: 2018-06-19 14:15
+Modified: 2018-06-19 17:40
 Index_save_as: index.html
 Url: /index.html
 
@@ -75,7 +75,10 @@ Week 3           10         Jun-04        [Tidy data]                           
                                                                                               data-fa-transform="grow-8">
                                                                                               </i>][c10-gh]
 
-                 11         Jun-05        Introduction to the Midterm Project dataset
+                 11         Jun-05        [Introduction to the Midterm Project dataset]       [<i
+                                                                                              class="fas fa-file-pdf"
+                                                                                              data-fa-transform="grow-8">
+                                                                                              </i>][c11-sl]
 
                  12         Jun-06        [Web scraping I]                                    [<i                           [Homework 2]
                                                                                               class="fas fa-file-pdf"
@@ -160,6 +163,7 @@ Week 5           20         Jun-18        [Modeling II]                         
 [c9-sl]:                                       /doc/class09_slides.pdf
 [c10-sl]:                                      /doc/class10_slides.pdf
 [c10-gh]:                                      https://classroom.github.com/a/SKb0g-iN
+[c11-sl]:                                      /doc/class11_slides.pdf
 [c12-sl]:                                      /doc/class12_slides.pdf
 [c12-gh]:                                      https://classroom.github.com/a/l9662GMD
 [c13-sl]:                                      /doc/class13_slides.pdf
@@ -203,6 +207,7 @@ Week 5           20         Jun-18        [Modeling II]                         
 [Statistical distributions I]:                 /materials/class-8/
 [Statistical distributions II]:                /materials/class-9/
 [Tidy data]:                                   /materials/class-10/
+[Introduction to the Midterm Project dataset]: /materials/class-11/
 [Web scraping I]:                              /materials/class-12/
 [Web scraping II]:                             /materials/class-13/
 [Midterm project conferences and R questions]: /materials/class-14/
