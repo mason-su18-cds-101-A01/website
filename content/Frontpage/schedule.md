@@ -2,7 +2,7 @@ Title: Summer 2018 Schedule
 Author: Dr. Glasbrenner
 Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
 Date: 2018-05-21 10:30
-Modified: 2018-06-14 23:25
+Modified: 2018-06-19 14:15
 Index_save_as: index.html
 Url: /index.html
 
@@ -115,16 +115,29 @@ Week 4           15         Jun-11        [Inference and simulation I]          
                                                                                               data-fa-transform="grow-8">
                                                                                               </i>][c17-sl]
 
-                 18         Jun-14        Midterm project presentations <br>                                                [Midterm project]
-                                          Overview of final project <br>
-                                          Inference and simulation IV
+                 18         Jun-14        Midterm project presentations <br>                  [<i                           [Midterm project]
+                                          Overview of final project <br>                      class="fas fa-file-pdf"
+                                          [Inference and simulation IV]                       data-fa-transform="grow-8">
+                                                                                              </i>][c18-sl]
 
-                 19         Jun-15        Modeling I                                                                        [Homework 3] <br>
-                                                                                                                            [Reading 13]
+                 19         Jun-15        [Modeling I]                                        [<i                           [Homework 3] <br>
+                                                                                              class="fas fa-file-pdf"       [Reading 13]
+                                                                                              data-fa-transform="grow-8">
+                                                                                              </i>][c19-sl]
 
-Week 5           20         Jun-18        Modeling II                                                                       [Reading 14]
+Week 5           20         Jun-18        [Modeling II]                                       [<i                           [Reading 14]
+                                                                                              class="fas fa-file-pdf"
+                                                                                              data-fa-transform="grow-8">
+                                                                                              </i>][c20-sl]
 
-                 21         Jun-19        Modeling III                                                                      [Reading 15]
+                 21         Jun-19        [Modeling III]                                      [<i                           [Reading 15]
+                                                                                              class="fas fa-file-pdf"
+                                                                                              data-fa-transform="grow-8">
+                                                                                              </i>][c21-sl]&emsp;
+                                                                                              [<i
+                                                                                              class="fab fa-github-alt"
+                                                                                              data-fa-transform="grow-8">
+                                                                                              </i>][c21-gh]
 
                  22         Jun-20        Modeling IV <br>                                                                  [Homework 4] <br>
                                           Course wrap-up                                                                    [Homework 5 (extra credit)]
@@ -155,6 +168,11 @@ Week 5           20         Jun-18        Modeling II                           
 [c15-sl]:                                      /doc/class15_slides.pdf
 [c16-sl]:                                      /doc/class16_slides.pdf
 [c17-sl]:                                      /doc/class17_slides.pdf
+[c18-sl]:                                      /doc/class18_slides.pdf
+[c19-sl]:                                      /doc/class19_slides.pdf
+[c20-sl]:                                      /doc/class20_slides.pdf
+[c21-sl]:                                      /doc/class21_slides.pdf
+[c21-gh]:                                      https://classroom.github.com/a/DWOtRp4c
 [Reading 1]:                                   /assignments/reading-1/
 [Reading 2]:                                   /assignments/reading-2/
 [Reading 3]:                                   /assignments/reading-3/
@@ -191,5 +209,9 @@ Week 5           20         Jun-18        Modeling II                           
 [Inference and simulation I]:                  /materials/class-15/
 [Inference and simulation II]:                 /materials/class-16/
 [Inference and simulation III]:                /materials/class-17/
+[Inference and simulation IV]:                 /materials/class-18/
+[Modeling I]:                                  /materials/class-19/
+[Modeling II]:                                 /materials/class-20/
+[Modeling III]:                                /materials/class-21/
 [Can Twitter predict election results]:        /assignments/can-twitter-predict-election-results-mini-assignment/
 [Visualization mini-assignment]:               /assignments/visualization-mini-assignment/
