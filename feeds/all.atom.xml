@@ -419,7 +419,31 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="/doc/data-transformation-cheatsheet.pdf"&gt;Data transformation&amp;nbsp;cheatsheet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="/doc/data-import-cheatsheet.pdf"&gt;Data import&amp;nbsp;cheatsheet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content><category term="homework"></category></entry><entry><title>Reading 15</title><link href="http://summer18.cds101.com/assignments/reading-15/" rel="alternate"></link><published>2018-06-19T10:30:00-04:00</published><updated>2018-06-19T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-06-19:/assignments/reading-15/</id><summary type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;a href="http://r4ds.had.co.nz/"&gt;R for Data&amp;nbsp;Science&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+</content><category term="homework"></category></entry><entry><title>Class 21: Modeling III</title><link href="http://summer18.cds101.com/materials/class-21/" rel="alternate"></link><published>2018-06-19T10:30:00-04:00</published><updated>2018-06-19T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-06-19:/materials/class-21/</id><summary type="html">&lt;p&gt;&lt;span class="h3"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/doc/class21_slides.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;span class="caps"&gt;PDF&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/doc/class21_slides.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;span class="caps"&gt;PDF&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="class notes"></category></entry><entry><title>Model selection activity</title><link href="http://summer18.cds101.com/materials/model-selection-activity/" rel="alternate"></link><published>2018-06-19T10:30:00-04:00</published><updated>2018-06-19T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-06-19:/materials/model-selection-activity/</id><summary type="html">&lt;p&gt;A guided activity to practice building univariate and multivariate linear regression models and how to perform model selection using k-fold&amp;nbsp;cross-validation.&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://classroom.github.com/a/DWOtRp4c"&gt;&lt;i class="fab fa-github-alt" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;strong&gt;Model selection&lt;/strong&gt;&amp;nbsp;repo&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><content type="html">&lt;p&gt;A guided activity to practice building univariate and multivariate linear regression models and how to perform model selection using k-fold&amp;nbsp;cross-validation.&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://classroom.github.com/a/DWOtRp4c"&gt;&lt;i class="fab fa-github-alt" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;strong&gt;Model selection&lt;/strong&gt;&amp;nbsp;repo&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="activity"></category></entry><entry><title>Reading 15</title><link href="http://summer18.cds101.com/assignments/reading-15/" rel="alternate"></link><published>2018-06-19T10:30:00-04:00</published><updated>2018-06-19T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-06-19:/assignments/reading-15/</id><summary type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;a href="http://r4ds.had.co.nz/"&gt;R for Data&amp;nbsp;Science&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Read the&amp;nbsp;following:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;From &lt;a href="http://r4ds.had.co.nz/model-basics.html"&gt;chapter 23&lt;/a&gt;: section &lt;a href="http://r4ds.had.co.nz/model-basics.html#formulas-and-model-families"&gt;23.4&lt;/a&gt; through to the end of section &lt;a href="http://r4ds.had.co.nz/model-basics.html#other-model-families"&gt;23.6&lt;/a&gt;&lt;/li&gt;
@@ -435,7 +459,19 @@
 &lt;div class="callout secondary"&gt;
 &lt;p&gt;No questions need to be submitted for this reading&amp;nbsp;assignment.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="reading"></category></entry><entry><title>Reading 14</title><link href="http://summer18.cds101.com/assignments/reading-14/" rel="alternate"></link><published>2018-06-18T10:30:00-04:00</published><updated>2018-06-18T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-06-18:/assignments/reading-14/</id><summary type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;a href="/doc/Diez_Barr_%C3%87etinkaya-Rundel_IntroductoryStatisticsWithRandomizationAndSimulation.pdf"&gt;Introductory Statistics with Randomization and&amp;nbsp;Simulation&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+</content><category term="reading"></category></entry><entry><title>Class 20: Modeling II</title><link href="http://summer18.cds101.com/materials/class-20/" rel="alternate"></link><published>2018-06-18T10:30:00-04:00</published><updated>2018-06-18T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-06-18:/materials/class-20/</id><summary type="html">&lt;p&gt;&lt;span class="h3"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/doc/class20_slides.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;span class="caps"&gt;PDF&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/doc/class20_slides.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;span class="caps"&gt;PDF&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="class notes"></category></entry><entry><title>Reading 14</title><link href="http://summer18.cds101.com/assignments/reading-14/" rel="alternate"></link><published>2018-06-18T10:30:00-04:00</published><updated>2018-06-18T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-06-18:/assignments/reading-14/</id><summary type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;a href="/doc/Diez_Barr_%C3%87etinkaya-Rundel_IntroductoryStatisticsWithRandomizationAndSimulation.pdf"&gt;Introductory Statistics with Randomization and&amp;nbsp;Simulation&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Read the&amp;nbsp;following:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;From chapter 5: from the beginning through to the end of section 5.1.4, section&amp;nbsp;5.4.1&lt;/li&gt;
@@ -537,7 +573,19 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="/doc/data-transformation-cheatsheet.pdf"&gt;Data transformation&amp;nbsp;cheatsheet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="/doc/data-import-cheatsheet.pdf"&gt;Data import&amp;nbsp;cheatsheet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content><category term="homework"></category></entry><entry><title>Reading 13</title><link href="http://summer18.cds101.com/assignments/reading-13/" rel="alternate"></link><published>2018-06-15T09:00:00-04:00</published><updated>2018-06-15T09:00:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-06-15:/assignments/reading-13/</id><summary type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;em&gt;Nature&lt;/em&gt; News Feature&amp;nbsp;article&lt;/span&gt;&lt;/p&gt;
+</content><category term="homework"></category></entry><entry><title>Class 19: Modeling I</title><link href="http://summer18.cds101.com/materials/class-19/" rel="alternate"></link><published>2018-06-15T10:30:00-04:00</published><updated>2018-06-15T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-06-15:/materials/class-19/</id><summary type="html">&lt;p&gt;&lt;span class="h3"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/doc/class19_slides.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;span class="caps"&gt;PDF&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/doc/class19_slides.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;span class="caps"&gt;PDF&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="class notes"></category></entry><entry><title>Reading 13</title><link href="http://summer18.cds101.com/assignments/reading-13/" rel="alternate"></link><published>2018-06-15T09:00:00-04:00</published><updated>2018-06-15T09:00:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-06-15:/assignments/reading-13/</id><summary type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;em&gt;Nature&lt;/em&gt; News Feature&amp;nbsp;article&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Read the following article about &lt;em&gt;p&lt;/em&gt;&amp;nbsp;values:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.nature.com/news/scientific-method-statistical-errors-1.14700"&gt;“Scientific method: Statistical errors” by R. Nuzzo&lt;/a&gt; (&lt;a href="https://www.nature.com/polopoly_fs/1.14700!/menu/main/topColumns/topLeftColumn/pdf/506150a.pdf"&gt;&lt;span class="caps"&gt;PDF&lt;/span&gt; version&lt;/a&gt;)&lt;/li&gt;
@@ -567,7 +615,19 @@
 &lt;p&gt;&lt;strong&gt;Discussion hashtag&lt;/strong&gt;&lt;br /&gt;
 &lt;code&gt;#reading13&lt;/code&gt;&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="reading"></category></entry><entry><title>Midterm Project</title><link href="http://summer18.cds101.com/assignments/midterm-project/" rel="alternate"></link><published>2018-06-14T10:30:00-04:00</published><updated>2018-06-14T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-06-14:/assignments/midterm-project/</id><summary type="html">For the midterm, you will conduct an exploratory data analysis of the &lt;span class="caps"&gt;U.S.&lt;/span&gt; Department of Education&amp;#8217;s &lt;emph&gt;College Scorecard&lt;/emph&gt; dataset in&amp;nbsp;teams.</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;strong&gt;Due:&lt;/strong&gt; June 14, 2018 @&amp;nbsp;10:30am&lt;/span&gt;&lt;/p&gt;
+</content><category term="reading"></category></entry><entry><title>Class 18: Inference and simulations IV</title><link href="http://summer18.cds101.com/materials/class-18/" rel="alternate"></link><published>2018-06-14T10:30:00-04:00</published><updated>2018-06-14T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-06-14:/materials/class-18/</id><summary type="html">&lt;p&gt;&lt;span class="h3"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/doc/class18_slides.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;span class="caps"&gt;PDF&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/doc/class18_slides.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;span class="caps"&gt;PDF&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="class notes"></category></entry><entry><title>Midterm Project</title><link href="http://summer18.cds101.com/assignments/midterm-project/" rel="alternate"></link><published>2018-06-14T10:30:00-04:00</published><updated>2018-06-14T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-06-14:/assignments/midterm-project/</id><summary type="html">For the midterm, you will conduct an exploratory data analysis of the &lt;span class="caps"&gt;U.S.&lt;/span&gt; Department of Education&amp;#8217;s &lt;emph&gt;College Scorecard&lt;/emph&gt; dataset in&amp;nbsp;teams.</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;strong&gt;Due:&lt;/strong&gt; June 14, 2018 @&amp;nbsp;10:30am&lt;/span&gt;&lt;/p&gt;
 &lt;div class="no-bullets"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="/doc/midterm_instructions.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-8"&gt;&lt;/i&gt;  Offline copy of&amp;nbsp;instructions&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -2358,7 +2418,7 @@ Virginia
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</content></entry><entry><title>Summer 2018 Schedule</title><link href="http://summer18.cds101.com//index.html" rel="alternate"></link><published>2018-05-21T10:30:00-04:00</published><updated>2018-06-14T23:25:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-05-21://index.html</id><summary type="html">&lt;table&gt;
+</content></entry><entry><title>Summer 2018 Schedule</title><link href="http://summer18.cds101.com//index.html" rel="alternate"></link><published>2018-05-21T10:30:00-04:00</published><updated>2018-06-19T14:15:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-05-21://index.html</id><summary type="html">&lt;table&gt;
 &lt;colgroup&gt;
 &lt;col style="width: 9%" /&gt;
 &lt;col style="width: 6%" /&gt;
@@ -2630,32 +2690,42 @@ data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;18&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Jun-14&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;Midterm project presentations &lt;br&gt; Overview of final project &lt;br&gt; Inference and simulation &lt;span class="caps"&gt;IV&lt;/span&gt;&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Midterm project presentations &lt;br&gt; Overview of final project &lt;br&gt; &lt;a href="/materials/class-18/"&gt;Inference and simulation &lt;span class="caps"&gt;IV&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;a href="/doc/class18_slides.pdf"&gt;&lt;i
+class="fas fa-file-pdf"
+data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;a href="/assignments/midterm-project/"&gt;Midterm project&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class="even"&gt;
 &lt;td style="text-align: left;"&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;19&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Jun-15&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;Modeling I&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;a href="/materials/class-19/"&gt;Modeling I&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;a href="/doc/class19_slides.pdf"&gt;&lt;i
+class="fas fa-file-pdf"
+data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;a href="/assignments/homework-3/"&gt;Homework 3&lt;/a&gt; &lt;br&gt; &lt;a href="/assignments/reading-13/"&gt;Reading 13&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class="odd"&gt;
 &lt;td style="text-align: left;"&gt;Week 5&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;20&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Jun-18&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;Modeling &lt;span class="caps"&gt;II&lt;/span&gt;&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;a href="/materials/class-20/"&gt;Modeling &lt;span class="caps"&gt;II&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;a href="/doc/class20_slides.pdf"&gt;&lt;i
+class="fas fa-file-pdf"
+data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;a href="/assignments/reading-14/"&gt;Reading 14&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class="even"&gt;
 &lt;td style="text-align: left;"&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;21&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Jun-19&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;Modeling &lt;span class="caps"&gt;III&lt;/span&gt;&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;a href="/materials/class-21/"&gt;Modeling &lt;span class="caps"&gt;III&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;a href="/doc/class21_slides.pdf"&gt;&lt;i
+class="fas fa-file-pdf"
+data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;  &lt;a href="https://classroom.github.com/a/DWOtRp4c"&gt;&lt;i
+class="fab fa-github-alt"
+data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;a href="/assignments/reading-15/"&gt;Reading 15&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class="odd"&gt;
