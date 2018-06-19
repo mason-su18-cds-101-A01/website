@@ -1,0 +1,21 @@
+Title: Model selection activity
+Author: Dr. Glasbrenner
+Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
+Date: 2018-06-19 10:30
+Tags: activity
+Slug: model-selection-activity
+Show_summary: false
+Show_link: false
+
+```{r setup, include = FALSE}
+icon_pdf <- '<i class="fas fa-file-pdf" data-fa-transform="grow-16"></i>&nbsp;'
+icon_github <- '<i class="fab fa-github-alt" data-fa-transform="grow-16"></i>&nbsp;'
+```
+
+A guided activity to practice building univariate and multivariate linear regression models and how to perform model selection using k-fold cross-validation.
+
+::: {.no-bullets}
+*   [`r icon_github` &nbsp; [**Model selection** repo]{.card-downloads-format}][github-classroom-repo]
+:::
+
+[github-classroom-repo]: https://classroom.github.com/a/DWOtRp4c
