@@ -2,7 +2,7 @@ Title: Summer 2018 Schedule
 Author: Dr. Glasbrenner
 Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
 Date: 2018-05-21 10:30
-Modified: 2018-06-19 17:40
+Modified: 2018-06-20 19:15
 Index_save_as: index.html
 Url: /index.html
 
@@ -142,8 +142,10 @@ Week 5           20         Jun-18        [Modeling II]                         
                                                                                               data-fa-transform="grow-8">
                                                                                               </i>][c21-gh]
 
-                 22         Jun-20        Modeling IV <br>                                                                  [Homework 4] <br>
-                                          Course wrap-up                                                                    [Homework 5 (extra credit)]
+                 22         Jun-20        [Course wrap-up]                                    [<i                           [Homework 4] <br>
+                                                                                              class="fas fa-file-pdf"       [Homework 5 (extra credit)]
+                                                                                              data-fa-transform="grow-8">
+                                                                                              </i>][c22-sl]
 
                             Jun-22        **[Final Interview]{.smallcaps}** <br>                                            [Final project]
                                           *Time: 10:30am -- 1:15pm*
@@ -177,6 +179,7 @@ Week 5           20         Jun-18        [Modeling II]                         
 [c20-sl]:                                      /doc/class20_slides.pdf
 [c21-sl]:                                      /doc/class21_slides.pdf
 [c21-gh]:                                      https://classroom.github.com/a/DWOtRp4c
+[c22-sl]:                                      /doc/class22_slides.pdf
 [Reading 1]:                                   /assignments/reading-1/
 [Reading 2]:                                   /assignments/reading-2/
 [Reading 3]:                                   /assignments/reading-3/
@@ -218,5 +221,6 @@ Week 5           20         Jun-18        [Modeling II]                         
 [Modeling I]:                                  /materials/class-19/
 [Modeling II]:                                 /materials/class-20/
 [Modeling III]:                                /materials/class-21/
+[Course wrap-up]:                              /materials/class-22/
 [Can Twitter predict election results]:        /assignments/can-twitter-predict-election-results-mini-assignment/
 [Visualization mini-assignment]:               /assignments/visualization-mini-assignment/
