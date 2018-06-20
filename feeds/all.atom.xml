@@ -419,7 +419,19 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="/doc/data-transformation-cheatsheet.pdf"&gt;Data transformation&amp;nbsp;cheatsheet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="/doc/data-import-cheatsheet.pdf"&gt;Data import&amp;nbsp;cheatsheet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content><category term="homework"></category></entry><entry><title>Class 21: Modeling III</title><link href="http://summer18.cds101.com/materials/class-21/" rel="alternate"></link><published>2018-06-19T10:30:00-04:00</published><updated>2018-06-19T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-06-19:/materials/class-21/</id><summary type="html">&lt;p&gt;&lt;span class="h3"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+</content><category term="homework"></category></entry><entry><title>Class 22: Course wrap-up</title><link href="http://summer18.cds101.com/materials/class-22/" rel="alternate"></link><published>2018-06-20T10:30:00-04:00</published><updated>2018-06-20T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-06-20:/materials/class-22/</id><summary type="html">&lt;p&gt;&lt;span class="h3"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/doc/class22_slides.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;span class="caps"&gt;PDF&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/doc/class22_slides.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;span class="caps"&gt;PDF&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="class notes"></category></entry><entry><title>Class 21: Modeling III</title><link href="http://summer18.cds101.com/materials/class-21/" rel="alternate"></link><published>2018-06-19T10:30:00-04:00</published><updated>2018-06-19T10:30:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-06-19:/materials/class-21/</id><summary type="html">&lt;p&gt;&lt;span class="h3"&gt;Slides&lt;/span&gt;&lt;/p&gt;
 &lt;div class="no-bullets"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="/doc/class21_slides.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;&lt;span class="caps"&gt;PDF&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
@@ -2430,7 +2442,7 @@ Virginia
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</content></entry><entry><title>Summer 2018 Schedule</title><link href="http://summer18.cds101.com//index.html" rel="alternate"></link><published>2018-05-21T10:30:00-04:00</published><updated>2018-06-19T17:40:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-05-21://index.html</id><summary type="html">&lt;table&gt;
+</content></entry><entry><title>Summer 2018 Schedule</title><link href="http://summer18.cds101.com//index.html" rel="alternate"></link><published>2018-05-21T10:30:00-04:00</published><updated>2018-06-20T19:15:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:summer18.cds101.com,2018-05-21://index.html</id><summary type="html">&lt;table&gt;
 &lt;colgroup&gt;
 &lt;col style="width: 9%" /&gt;
 &lt;col style="width: 6%" /&gt;
@@ -2746,8 +2758,10 @@ data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;22&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Jun-20&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;Modeling &lt;span class="caps"&gt;IV&lt;/span&gt; &lt;br&gt; Course wrap-up&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;a href="/materials/class-22/"&gt;Course wrap-up&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;a href="/doc/class22_slides.pdf"&gt;&lt;i
+class="fas fa-file-pdf"
+data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;a href="/assignments/homework-4/"&gt;Homework 4&lt;/a&gt; &lt;br&gt; &lt;a href="/assignments/homework-5-extra-credit/"&gt;Homework 5 (extra credit)&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class="even"&gt;
