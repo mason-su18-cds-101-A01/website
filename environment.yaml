@@ -3,18 +3,27 @@ name: cds101website
 channels:
   - defaults
   - conda-forge
+  - jkglasbrenner
 dependencies:
-  - anaconda=custom=py36hbbc8b67_0
-  - pandoc=2.2.1=0
-  - pelican
-  - markdown
-  - typogrify
-  - rpy2
-  - r-base
-  - r-commonmark
-  - r-devtools
-  - r-essentials
-  - r-git2r
-  - r-lintr
-  - r-nycflights13
-  - r-tidyverse
+  - anaconda=custom
+  - anaconda-client
+  - conda-build
+  - git=2.18.0
+  - pandoc=2.2.1
+  - pelican=3.7.1
+  - python=3.6.6
+  - markdown=2.6.11
+  - typogrify=2.0.7
+  - rpy2=2.9.1
+  - rstudio=1.1.456
+  - r-base=3.5.0
+  - r-commonmark=1.4
+  - r-devtools=1.13.5
+  - r-essentials=3.5.0
+  - r-fs=1.2.5
+  - r-git2r=0.21.0
+  - r-lintr=1.0.2
+  - r-nycflights13=0.2.2
+  - r-tidyverse=1.2.1
+  - r-vembedr=0.1.3
+...
