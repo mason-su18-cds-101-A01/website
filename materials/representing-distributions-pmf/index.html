@@ -115,36 +115,7 @@ county_complete &lt;- read_rds(
 <p>The <code>position = &quot;identity&quot;</code> input overlaps the two distributions (instead of stacking them) and <code>alpha = 0.5</code> makes the distributions translucent, so that you can see both despite the overlap. On our first glance, it looks like the center of the Nebraska times is lower than the center of the Iowa times, and that both have a long tail on the right-hand side. However, if we do a count&nbsp;summary,</p>
 <pre class="r"><code>nebraska_iowa %&gt;%
   count(state)</code></pre>
-<table class="table table-striped table-responsive" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;">
-state
-</th>
-<th style="text-align:right;">
-n
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Iowa
-</td>
-<td style="text-align:right;">
-99
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Nebraska
-</td>
-<td style="text-align:right;">
-93
-</td>
-</tr>
-</tbody>
-</table>
+<pre><code>## Error in loadNamespace(name): there is no package called &#39;kableExtra&#39;</code></pre>
 <p>we find that the two states do not have the exact same number of counties, although they are close in this particular example. Nonetheless, any comparisons should be done using a <span class="caps">PMF</span> in order to account for differences in the sample size. We use the following code to create a <span class="caps">PMF</span>&nbsp;plot:</p>
 <pre class="r"><code>nebraska_iowa %&gt;% 
   ggplot() +
@@ -163,36 +134,7 @@ Nebraska
 <pre class="r"><code>county_complete %&gt;%
   filter(state == &quot;New Jersey&quot; | state == &quot;Virginia&quot;) %&gt;%
   count(state)</code></pre>
-<table class="table table-striped table-responsive" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;">
-state
-</th>
-<th style="text-align:right;">
-n
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-New Jersey
-</td>
-<td style="text-align:right;">
-21
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Virginia
-</td>
-<td style="text-align:right;">
-134
-</td>
-</tr>
-</tbody>
-</table>
+<pre><code>## Error in loadNamespace(name): there is no package called &#39;kableExtra&#39;</code></pre>
 <p>As a result, comparing their frequency histograms gives you&nbsp;this:</p>
 <p><img src="/img/Materials/representing_distributions_pmf-va-nj-travel-times-freq-hist-1.svg" title="plot of chunk va-nj-travel-times-freq-hist" alt="plot of chunk va-nj-travel-times-freq-hist" width="60%" style="display: block; margin: auto;" /></p>
 <p>The New Jersey distribution is dwarfed by the Virginia distribution and it makes it difficult to make comparisons. However, if we instead compare PMFs, we get&nbsp;this:</p>

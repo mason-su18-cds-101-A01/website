@@ -1426,73 +1426,18 @@ percentile_rank &amp;lt;- 100.0 * number_of_lower_scores / number_of_tests&lt;/c
 test_scores %&amp;gt;%
   arrange(score) %&amp;gt;%
   slice(percentile_rank_row_number)&lt;/code&gt;&lt;/pre&gt;
-&lt;table class="table table-striped table-responsive" style="width: auto !important; margin-left: auto; margin-right: auto;"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align:right;"&gt;
-score
-&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align:right;"&gt;
-77
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;pre&gt;&lt;code&gt;## Error in loadNamespace(name): there is no package called &amp;#39;kableExtra&amp;#39;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The result of this calculation is called a &lt;strong&gt;percentile&lt;/strong&gt;. So this means that, in the distribution of exam scores, the 55th percentile corresponds to a score of&amp;nbsp;77.&lt;/p&gt;
 &lt;p&gt;In R, there is a function called &lt;code&gt;quantile()&lt;/code&gt; that can do the above calculation automatically, although you need to take care with the inputs. Let’s first show what happens when we aren’t careful. We might think that we can calculate the 55th percentile by&amp;nbsp;running:&lt;/p&gt;
 &lt;pre class="r"&gt;&lt;code&gt;test_scores %&amp;gt;%
   pull(score) %&amp;gt;%
   quantile(probs = combine(0.55))&lt;/code&gt;&lt;/pre&gt;
-&lt;table class="table table-striped table-responsive" style="width: auto !important; margin-left: auto; margin-right: auto;"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align:left;"&gt;
-&lt;/th&gt;
-&lt;th style="text-align:right;"&gt;
-x
-&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align:left;"&gt;
-55%
-&lt;/td&gt;
-&lt;td style="text-align:right;"&gt;
-79.2
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;pre&gt;&lt;code&gt;## Error in loadNamespace(name): there is no package called &amp;#39;kableExtra&amp;#39;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;We get a score of 79.2, which isn’t in our dataset. This happens because &lt;code&gt;quantile()&lt;/code&gt; interpolates between the scores by default. Sometimes you will want this behavior, other times you will not. When the dataset is this small, it doesn’t make as much sense to permit interpolation, as it can be based on rather aggressive assumptions about what intermediate scores might look like. To tell &lt;code&gt;quantile()&lt;/code&gt; to compute scores in the same manner as we did above, add the input &lt;code&gt;type = 1&lt;/code&gt;:&lt;/p&gt;
 &lt;pre class="r"&gt;&lt;code&gt;test_scores %&amp;gt;%
   pull(score) %&amp;gt;%
   quantile(probs = combine(0.55), type = 1)&lt;/code&gt;&lt;/pre&gt;
-&lt;table class="table table-striped table-responsive" style="width: auto !important; margin-left: auto; margin-right: auto;"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align:left;"&gt;
-&lt;/th&gt;
-&lt;th style="text-align:right;"&gt;
-x
-&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align:left;"&gt;
-55%
-&lt;/td&gt;
-&lt;td style="text-align:right;"&gt;
-77
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;pre&gt;&lt;code&gt;## Error in loadNamespace(name): there is no package called &amp;#39;kableExtra&amp;#39;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;This, as expected, agrees with the manual&amp;nbsp;calculation.&lt;/p&gt;
 &lt;p&gt;It is worth emphasizing that the difference between “percentile” and “percentile rank” can be confusing, and people do not always use the terms precisely. To summarize, if we want to know the percentage of people obtained scores equal to or lower than ours, then we are computing a percentile rank. If we start with a percentile, then we are computing the score in the distribution that corresponds with&amp;nbsp;it.&lt;/p&gt;
 &lt;h2 id="cdfs"&gt;CDFs&lt;/h2&gt;
@@ -1500,60 +1445,7 @@ x
 &lt;pre class="r"&gt;&lt;code&gt;test_scores_cdf &amp;lt;- test_scores %&amp;gt;%
   arrange(score) %&amp;gt;%
   mutate(cdf = row_number() / n())&lt;/code&gt;&lt;/pre&gt;
-&lt;table class="table table-striped table-responsive" style="width: auto !important; margin-left: auto; margin-right: auto;"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align:right;"&gt;
-score
-&lt;/th&gt;
-&lt;th style="text-align:right;"&gt;
-cdf
-&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align:right;"&gt;
-55
-&lt;/td&gt;
-&lt;td style="text-align:right;"&gt;
-0.2
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align:right;"&gt;
-66
-&lt;/td&gt;
-&lt;td style="text-align:right;"&gt;
-0.4
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align:right;"&gt;
-77
-&lt;/td&gt;
-&lt;td style="text-align:right;"&gt;
-0.6
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align:right;"&gt;
-88
-&lt;/td&gt;
-&lt;td style="text-align:right;"&gt;
-0.8
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align:right;"&gt;
-99
-&lt;/td&gt;
-&lt;td style="text-align:right;"&gt;
-1.0
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;pre&gt;&lt;code&gt;## Error in loadNamespace(name): there is no package called &amp;#39;kableExtra&amp;#39;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The visualization of the &lt;span class="caps"&gt;CDF&lt;/span&gt; looks&amp;nbsp;like:&lt;/p&gt;
 &lt;p&gt;&lt;img src="/img/Materials/representing_distributions_cdf-test-scores-cdf-plot-1.svg" title="plot of chunk test-scores-cdf-plot" alt="plot of chunk test-scores-cdf-plot" width="60%" style="display: block; margin: auto;" /&gt;&lt;/p&gt;
 &lt;p&gt;As you can see, the &lt;span class="caps"&gt;CDF&lt;/span&gt; of a sample looks like a sequence of steps. Appropriately enough, this is called a step function, and the &lt;span class="caps"&gt;CDF&lt;/span&gt; of &lt;em&gt;any&lt;/em&gt; sample is a step&amp;nbsp;function.&lt;/p&gt;
@@ -1627,36 +1519,7 @@ county_complete &amp;lt;- read_rds(
 &lt;p&gt;The &lt;code&gt;position = &amp;quot;identity&amp;quot;&lt;/code&gt; input overlaps the two distributions (instead of stacking them) and &lt;code&gt;alpha = 0.5&lt;/code&gt; makes the distributions translucent, so that you can see both despite the overlap. On our first glance, it looks like the center of the Nebraska times is lower than the center of the Iowa times, and that both have a long tail on the right-hand side. However, if we do a count&amp;nbsp;summary,&lt;/p&gt;
 &lt;pre class="r"&gt;&lt;code&gt;nebraska_iowa %&amp;gt;%
   count(state)&lt;/code&gt;&lt;/pre&gt;
-&lt;table class="table table-striped table-responsive" style="width: auto !important; margin-left: auto; margin-right: auto;"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align:left;"&gt;
-state
-&lt;/th&gt;
-&lt;th style="text-align:right;"&gt;
-n
-&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align:left;"&gt;
-Iowa
-&lt;/td&gt;
-&lt;td style="text-align:right;"&gt;
-99
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align:left;"&gt;
-Nebraska
-&lt;/td&gt;
-&lt;td style="text-align:right;"&gt;
-93
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;pre&gt;&lt;code&gt;## Error in loadNamespace(name): there is no package called &amp;#39;kableExtra&amp;#39;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;we find that the two states do not have the exact same number of counties, although they are close in this particular example. Nonetheless, any comparisons should be done using a &lt;span class="caps"&gt;PMF&lt;/span&gt; in order to account for differences in the sample size. We use the following code to create a &lt;span class="caps"&gt;PMF&lt;/span&gt;&amp;nbsp;plot:&lt;/p&gt;
 &lt;pre class="r"&gt;&lt;code&gt;nebraska_iowa %&amp;gt;% 
   ggplot() +
@@ -1675,36 +1538,7 @@ Nebraska
 &lt;pre class="r"&gt;&lt;code&gt;county_complete %&amp;gt;%
   filter(state == &amp;quot;New Jersey&amp;quot; | state == &amp;quot;Virginia&amp;quot;) %&amp;gt;%
   count(state)&lt;/code&gt;&lt;/pre&gt;
-&lt;table class="table table-striped table-responsive" style="width: auto !important; margin-left: auto; margin-right: auto;"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align:left;"&gt;
-state
-&lt;/th&gt;
-&lt;th style="text-align:right;"&gt;
-n
-&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align:left;"&gt;
-New Jersey
-&lt;/td&gt;
-&lt;td style="text-align:right;"&gt;
-21
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align:left;"&gt;
-Virginia
-&lt;/td&gt;
-&lt;td style="text-align:right;"&gt;
-134
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;pre&gt;&lt;code&gt;## Error in loadNamespace(name): there is no package called &amp;#39;kableExtra&amp;#39;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;As a result, comparing their frequency histograms gives you&amp;nbsp;this:&lt;/p&gt;
 &lt;p&gt;&lt;img src="/img/Materials/representing_distributions_pmf-va-nj-travel-times-freq-hist-1.svg" title="plot of chunk va-nj-travel-times-freq-hist" alt="plot of chunk va-nj-travel-times-freq-hist" width="60%" style="display: block; margin: auto;" /&gt;&lt;/p&gt;
 &lt;p&gt;The New Jersey distribution is dwarfed by the Virginia distribution and it makes it difficult to make comparisons. However, if we instead compare PMFs, we get&amp;nbsp;this:&lt;/p&gt;
